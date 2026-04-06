@@ -1,18 +1,18 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/doc-bricks/.github/main/profile/logo.jpg" alt="doc-bricks" width="400">
-</p>
+# doc-bricks
 
-<h3 align="center">doc-bricks</h3>
-<p align="center"><i>Document management & media library tools</i></p>
+**Document processing & knowledge management tools.**
 
----
+## Our Tools
 
-Desktop applications for managing documents, literature, and media libraries. Organize, preview, and export your knowledge.
+| App | Description |
+|-----|------------|
+| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Media organization & knowledge extraction |
+| [DokuReader](https://github.com/doc-bricks/DokuReader) | Document reader & analyzer |
+| [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature management center |
+| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | PDF OCR processing pipeline |
 
-### Projects
+## Part of the open-bricks ecosystem
 
-DokuReader, LitZentrum, MediaBrain
+doc-bricks is part of [open-bricks](https://github.com/open-bricks) — an ecosystem of open-source desktop software, AI infrastructure, developer tools, and research repositories.
 
----
-
-**License:** MIT
+**File management:** [file-bricks](https://github.com/file-bricks) · **AI infrastructure:** [ellmos-ai](https://github.com/ellmos-ai) · **Developer tools:** [dev-bricks](https://github.com/dev-bricks) · **Research:** [research-line](https://github.com/research-line)
