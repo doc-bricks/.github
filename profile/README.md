@@ -12,6 +12,7 @@ doc-bricks provides desktop applications for reading, managing, and converting d
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Topic-based document manager with preview and batch PDF export |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Folder-based literature manager with citations and BibTeX |
 | [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | PDF OCR converter with batch processing and language detection |
+| [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Fast local Markdown viewer/editor with clean reading mode, raw Markdown editing, and PDF export |
 
 ## Part of the open-bricks suite
 
