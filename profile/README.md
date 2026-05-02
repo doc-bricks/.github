@@ -4,7 +4,7 @@
 
 doc-bricks builds desktop applications for document-heavy workflows, from literature management and Markdown work to structured preview and export flows for PDFs and notes.
 
-## Public Apps
+## Document Tools
 
 | App | Description |
 |-----|-------------|
@@ -12,6 +12,15 @@ doc-bricks builds desktop applications for document-heavy workflows, from litera
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Topic-based document manager with preview, structured folders, and PDF export |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature management suite for researchers with bibliography and PDF support |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Local media and document hub that unifies files, browser activity, and research material |
+
+## Mail Tools
+
+| App | Description |
+|-----|-------------|
+| [MailProcessor](https://github.com/doc-bricks/MailProcessor) | System tray launcher for all Universal Mail Tools |
+| [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Rule-based IMAP mailbox cleaner with safe mode, multi-folder support, and undo |
+| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Automatic download, conversion, and organization of documents from IMAP mail |
+| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Collect invoices and receipts from IMAP or Gmail, convert to PDF, and archive locally |
 
 ## Ecosystem
 
