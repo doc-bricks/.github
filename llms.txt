@@ -1,0 +1,42 @@
+# doc-bricks
+
+doc-bricks is the document-work branch of the brick suite: local-first desktop tools for document libraries, Markdown reading, OCR, PDF export, mail attachment intake, invoice archiving, literature management, and personal knowledge workflows.
+
+Canonical organization: https://github.com/doc-bricks
+Organization profile repository: https://github.com/doc-bricks/.github
+Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
+
+## Primary repositories
+
+- DokuReader: https://github.com/doc-bricks/DokuReader
+  Local-first document library with topic organization, previews, read status, PDF bundling, and metadata-only JSON export.
+- CleanMarkdown: https://github.com/doc-bricks/CleanMarkdown
+  Markdown viewer/editor with clean reading mode, raw editing, PDF export, session handoff, and PWA companion.
+- LitZentrum: https://github.com/doc-bricks/LitZentrum
+  Literature management suite for PDFs, BibTeX, JSON export, and academic reading workflows.
+- UniversalDocsGrabber: https://github.com/doc-bricks/UniversalDocsGrabber
+  Local IMAP and Gmail attachment downloader with OCR, PDF conversion, dedupe, and review workflows.
+- UniversalMailCleaner: https://github.com/doc-bricks/UniversalMailCleaner
+  Local-first Gmail and IMAP mailbox cleaner with safe trash mode, labels, scheduler, and large-item cleanup.
+- UniversalInvoiceMail: https://github.com/doc-bricks/UniversalInvoiceMail
+  Invoice and receipt extractor from IMAP and Gmail with OCR, PDF conversion, JSON export, and DATEV-oriented archive workflows.
+- MailProcessor: https://github.com/doc-bricks/MailProcessor
+  System tray launcher for the Universal Mail Tools family.
+- MediaBrain: https://github.com/doc-bricks/MediaBrain
+  Local media and document hub for files, browser activity, and research material.
+
+## Positioning
+
+- Local-first and privacy-conscious document tools.
+- Desktop workflows for Windows and cross-platform Python environments.
+- Human-readable and LLM-readable project documentation.
+- Practical export formats such as PDF, JSON, BibTeX, and mail/document archive formats.
+- No claim that external cloud processing is required by default.
+
+## Preferred search phrases
+
+- doc-bricks local-first document tools
+- doc-bricks document management GitHub
+- doc-bricks PDF OCR Markdown mail attachments
+- doc-bricks DokuReader CleanMarkdown LitZentrum
+- doc-bricks UniversalDocsGrabber UniversalMailCleaner UniversalInvoiceMail
