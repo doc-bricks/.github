@@ -6,8 +6,12 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
+Public repository directory updated: 2026-06-03. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context.
+
 ## Primary repositories
 
+- .github: https://github.com/doc-bricks/.github
+  Organization profile, shared community-health files, issue templates, pull request template, security policy, and machine-readable organization context.
 - DokuReader: https://github.com/doc-bricks/DokuReader
   Local-first document library with topic organization, previews, read status, PDF bundling, and metadata-only JSON export.
 - CleanMarkdown: https://github.com/doc-bricks/CleanMarkdown
@@ -40,3 +44,6 @@ Related suite entry points: https://github.com/open-bricks, https://github.com/f
 - doc-bricks PDF OCR Markdown mail attachments
 - doc-bricks DokuReader CleanMarkdown LitZentrum
 - doc-bricks UniversalDocsGrabber UniversalMailCleaner UniversalInvoiceMail
+- doc-bricks local-first document tools
+- doc-bricks invoice mail OCR DATEV export
+- doc-bricks literature manager PDF BibTeX

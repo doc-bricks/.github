@@ -17,6 +17,22 @@ doc-bricks builds practical desktop applications for document-heavy workflows. T
 | Clean large IMAP or Gmail mailboxes safely | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleaner with safe trash mode, labels, scheduler, and large-item cleanup |
 | Collect invoices and receipts from mail | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice extractor with Gmail/IMAP input, OCR, PDF conversion, JSON export, and DATEV-oriented workflows |
 
+## Public Repository Directory
+
+This index covers every public doc-bricks repository visible on GitHub as of 2026-06-03. Private or internal repositories are intentionally not listed on the public organization profile.
+
+| Repository | Role | Discovery notes |
+|---|---|---|
+| [.github](https://github.com/doc-bricks/.github) | Organization profile and shared community-health files | Start page, issue templates, pull request template, security policy, and `llms.txt` |
+| [DokuReader](https://github.com/doc-bricks/DokuReader) | Document library | Local-first document manager, reading state, topic organization, preview workflow, PDF bundling |
+| [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown reading and editing | Markdown viewer/editor, reading mode, PDF export, session handoff, PWA companion |
+| [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature management | PDF library, BibTeX workflows, academic reading, research notes, JSON export |
+| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Mail attachment intake | IMAP/Gmail attachment downloader, OCR, PDF conversion, dedupe, document archive review |
+| [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleanup | Gmail and IMAP cleaner, safe trash mode, labels, scheduler, large-item cleanup |
+| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt intake | Invoice extractor, OCR, PDF conversion, JSON export, DATEV-oriented archive workflows |
+| [MailProcessor](https://github.com/doc-bricks/MailProcessor) | Mail tool launcher | System tray entry point for Universal Mail Cleaner, UniversalDocsGrabber, and UniversalInvoiceMail |
+| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Media and document hub | Local media library, browser activity context, research material organization |
+
 ## Project Families
 
 ### Document Reading And Libraries
@@ -52,6 +68,10 @@ doc-bricks builds practical desktop applications for document-heavy workflows. T
 - **Document-practical:** each project targets repeated real workflows: reading, previewing, cleaning, exporting, archiving, and handoff.
 - **Structured exports:** JSON, BibTeX, PDF, and companion formats are documented so data can move between desktop tools and later automation.
 - **Readable maintenance:** READMEs, tests, and `llms.txt` files are kept useful for both human maintainers and LLM-based assistants.
+
+## Discovery Signals
+
+Useful search phrases for the public doc-bricks profile include `local-first document tools`, `Python document management`, `PySide6 PDF OCR`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, and `invoice mail OCR DATEV export`.
 
 ## Machine-Readable Context
 

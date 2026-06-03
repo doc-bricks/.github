@@ -4,6 +4,8 @@ This repository contains the public organization profile and shared community-he
 
 The profile README in [`profile/README.md`](profile/README.md) is the landing page shown on the doc-bricks GitHub organization. It introduces local-first document tools for reading, OCR, PDF export, mail attachment intake, invoice archiving, literature management, and personal document libraries.
 
+The public repository directory is maintained against the public GitHub organization view. Private or internal work is intentionally excluded from the public profile.
+
 ## Contents
 
 | Path | Purpose |
