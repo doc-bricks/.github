@@ -6,7 +6,7 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
-Public repository directory updated: 2026-06-03. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context.
+Public repository directory updated: 2026-06-10. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context.
 
 ## Primary repositories
 
@@ -28,6 +28,8 @@ Public repository directory updated: 2026-06-03. The public organization profile
   System tray launcher for the Universal Mail Tools family.
 - MediaBrain: https://github.com/doc-bricks/MediaBrain
   Local media and document hub for files, browser activity, and research material.
+- PDFtoPDFocr: https://github.com/doc-bricks/PDFtoPDFocr
+  Local-first PDF OCR converter for searchable PDFs with Tesseract, PySide6, and portable Windows builds.
 
 ## Positioning
 
