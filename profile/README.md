@@ -1,5 +1,7 @@
 # doc-bricks
 
+<!-- last-checked: 2026-06-11 -->
+
 ![doc-bricks logo](logo.jpg)
 
 **Local-first document tools for reading, cleaning, collecting, converting, and organizing PDFs, Markdown files, mail attachments, invoices, and research libraries.**
@@ -16,11 +18,10 @@ doc-bricks builds practical desktop applications for document-heavy workflows. T
 | Download and archive mail attachments locally | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | IMAP/Gmail attachment downloader with OCR, PDF conversion, dedupe, and review workflows |
 | Clean large IMAP or Gmail mailboxes safely | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleaner with safe trash mode, labels, scheduler, and large-item cleanup |
 | Collect invoices and receipts from mail | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice extractor with Gmail/IMAP input, OCR, PDF conversion, JSON export, and DATEV-oriented workflows |
-| Convert scanned PDFs to searchable text | [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Local-first PDF OCR converter with Tesseract, PySide6, and portable Windows builds |
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of 2026-06-10. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of 2026-06-11. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|
@@ -33,7 +34,6 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt intake | Invoice extractor, OCR, PDF conversion, JSON export, DATEV-oriented archive workflows |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | Mail tool launcher | System tray entry point for Universal Mail Cleaner, UniversalDocsGrabber, and UniversalInvoiceMail |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Media and document hub | Local media library, browser activity context, research material organization |
-| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | PDF OCR conversion | Local-first PDF OCR converter, Tesseract, PySide6, searchable PDF output, portable Windows builds |
 
 ## Project Families
 
@@ -55,14 +55,13 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Attachment downloader and document archive builder for mail-based document intake |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt collection pipeline for local archives and accounting-oriented exports |
 
-### PDF, OCR, And Conversion
+### PDF, OCR, And Export
 
 | App | Description |
 |---|---|
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Converts downloaded mail documents into reviewable PDF/OCR archive material |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Converts invoice and receipt mail into PDF/OCR archive material and accounting-oriented exports |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Exports Markdown reading sessions to PDF and companion web formats |
-| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Converts scanned PDF files into searchable PDFs using Tesseract OCR and PySide6 |
 
 ## Design Principles
 
