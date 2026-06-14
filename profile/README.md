@@ -86,3 +86,9 @@ doc-bricks is the document-work branch of the brick suite:
 [open-bricks](https://github.com/open-bricks) | [file-bricks](https://github.com/file-bricks) | [dev-bricks](https://github.com/dev-bricks)
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
+
+## Related (other orgs)
+
+| Project | Description |
+|---|---|
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual knowledge-stub dataset (630 terms, 12 domains, DE/EN + es/ja/ru/zh) with a web publisher — deployable as a self-contained wiki module |
