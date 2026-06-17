@@ -6,7 +6,7 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
-Public repository directory updated: 2026-06-11. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context.
+Public repository directory updated: 2026-06-18. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context.
 
 ## Primary repositories
 
@@ -28,12 +28,15 @@ Public repository directory updated: 2026-06-11. The public organization profile
   System tray launcher for the Universal Mail Tools family.
 - MediaBrain: https://github.com/doc-bricks/MediaBrain
   Local media and document hub for files, browser activity, and research material.
+- llm-note: https://github.com/doc-bricks/llm-note
+  Local-first notes and notebook inboxes for LLM agents: SQLite note log, plain-text notebooks, CLI/Python API, six locales, and standalone agent skill.
 
 ## Positioning
 
 - Local-first and privacy-conscious document tools.
 - Desktop workflows for Windows and cross-platform Python environments.
 - Human-readable and LLM-readable project documentation.
+- Local-first note and handoff primitives for LLM-assisted workflows.
 - Practical export formats such as PDF, JSON, BibTeX, and mail/document archive formats.
 - No claim that external cloud processing is required by default.
 
@@ -44,6 +47,7 @@ Public repository directory updated: 2026-06-11. The public organization profile
 - doc-bricks PDF OCR Markdown mail attachments
 - doc-bricks DokuReader CleanMarkdown LitZentrum
 - doc-bricks UniversalDocsGrabber UniversalMailCleaner UniversalInvoiceMail
+- doc-bricks llm-note local-first LLM agent notes
 - doc-bricks local-first document tools
 - doc-bricks invoice mail OCR DATEV export
 - doc-bricks literature manager PDF BibTeX

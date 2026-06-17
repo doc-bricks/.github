@@ -1,6 +1,6 @@
 # doc-bricks
 
-<!-- last-checked: 2026-06-11 -->
+<!-- last-checked: 2026-06-18 -->
 
 ![doc-bricks logo](logo.jpg)
 
@@ -18,10 +18,11 @@ doc-bricks builds practical desktop applications for document-heavy workflows. T
 | Download and archive mail attachments locally | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | IMAP/Gmail attachment downloader with OCR, PDF conversion, dedupe, and review workflows |
 | Clean large IMAP or Gmail mailboxes safely | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleaner with safe trash mode, labels, scheduler, and large-item cleanup |
 | Collect invoices and receipts from mail | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice extractor with Gmail/IMAP input, OCR, PDF conversion, JSON export, and DATEV-oriented workflows |
+| Keep local notes for LLM agents | [llm-note](https://github.com/doc-bricks/llm-note) | Local-first SQLite notes, plain-text notebooks, six locales, and a standalone agent skill extracted from BACH |
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of 2026-06-11. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of 2026-06-18. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|
@@ -34,6 +35,7 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt intake | Invoice extractor, OCR, PDF conversion, JSON export, DATEV-oriented archive workflows |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | Mail tool launcher | System tray entry point for Universal Mail Cleaner, UniversalDocsGrabber, and UniversalInvoiceMail |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Media and document hub | Local media library, browser activity context, research material organization |
+| [llm-note](https://github.com/doc-bricks/llm-note) | Agent notes and notebooks | Local-first SQLite note log, plain-text notebooks, six locales, CLI/Python API, and standalone agent skill |
 
 ## Project Families
 
@@ -62,6 +64,12 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Converts downloaded mail documents into reviewable PDF/OCR archive material |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Converts invoice and receipt mail into PDF/OCR archive material and accounting-oriented exports |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Exports Markdown reading sessions to PDF and companion web formats |
+
+### Notes And Agent Handoffs
+
+| App | Description |
+|---|---|
+| [llm-note](https://github.com/doc-bricks/llm-note) | Local-first notes and notebook inboxes for LLM agents, extracted from BACH Notizblock/Denkarium patterns |
 
 ## Design Principles
 
