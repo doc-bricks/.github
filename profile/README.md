@@ -1,12 +1,14 @@
 # doc-bricks
 
-<!-- last-checked: 2026-06-18 -->
+<!-- last-checked: 2026-06-26 -->
 
 ![doc-bricks logo](logo.jpg)
 
 **Local-first document tools for reading, cleaning, collecting, converting, and organizing PDFs, Markdown files, mail attachments, invoices, and research libraries.**
 
 doc-bricks builds practical desktop applications for document-heavy workflows. The projects focus on local document libraries, safe mail processing, OCR, PDF export, literature management, and structured handoff formats that remain useful for humans and LLM-assisted maintenance.
+
+Public index status: verified on 2026-06-26 against the live GitHub organization. The profile lists 10 public repositories total: `.github` plus 9 product/tool repositories. Private or internal repositories are intentionally not listed.
 
 ## Start Here
 
@@ -22,7 +24,7 @@ doc-bricks builds practical desktop applications for document-heavy workflows. T
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of 2026-06-18. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of 2026-06-26. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|
@@ -81,7 +83,7 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 
 ## Discovery Signals
 
-Useful search phrases for the public doc-bricks profile include `local-first document tools`, `Python document management`, `PySide6 PDF OCR`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, and `invoice mail OCR DATEV export`.
+Useful search phrases for the public doc-bricks profile include `local-first document tools`, `Python document management`, `PySide6 PDF OCR`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, `invoice mail OCR DATEV export`, and `local-first LLM agent notes`.
 
 ## Machine-Readable Context
 

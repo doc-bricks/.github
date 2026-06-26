@@ -6,7 +6,7 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
-Public repository directory updated: 2026-06-18. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context.
+Public repository directory updated: 2026-06-26. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 10 repositories total, including `.github` plus 9 public product/tool repositories.
 
 ## Primary repositories
 
@@ -48,6 +48,6 @@ Public repository directory updated: 2026-06-18. The public organization profile
 - doc-bricks DokuReader CleanMarkdown LitZentrum
 - doc-bricks UniversalDocsGrabber UniversalMailCleaner UniversalInvoiceMail
 - doc-bricks llm-note local-first LLM agent notes
-- doc-bricks local-first document tools
+- doc-bricks agent notes SQLite notebooks
 - doc-bricks invoice mail OCR DATEV export
 - doc-bricks literature manager PDF BibTeX
