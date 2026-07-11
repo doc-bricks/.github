@@ -1,14 +1,14 @@
 # doc-bricks
 
-<!-- last-checked: 2026-06-26 -->
+<!-- last-checked: 2026-07-11 -->
 
 ![doc-bricks logo](logo.jpg)
 
-**Local-first document tools for reading, cleaning, collecting, converting, and organizing PDFs, Markdown files, mail attachments, invoices, and research libraries.**
+**Local-first document tools for reading, cleaning, collecting, converting, and organizing PDFs, Markdown files, mail attachments, invoices, media libraries, research libraries, and LLM-ready notes.**
 
-doc-bricks builds practical desktop applications for document-heavy workflows. The projects focus on local document libraries, safe mail processing, OCR, PDF export, literature management, and structured handoff formats that remain useful for humans and LLM-assisted maintenance.
+doc-bricks builds practical desktop applications for document-heavy workflows. The projects focus on local document libraries, safe mail processing, OCR, PDF export, literature management, media organization, and structured handoff formats that remain useful for humans and LLM-assisted maintenance.
 
-Public index status: verified on 2026-06-26 against the live GitHub organization. The profile lists 10 public repositories total: `.github` plus 9 product/tool repositories. Private or internal repositories are intentionally not listed.
+Public index status: verified on 2026-07-11 against the live GitHub organization. The profile lists 10 public repositories total: `.github` plus 9 product/tool repositories. Private or internal repositories are intentionally not listed.
 
 ## Start Here
 
@@ -16,7 +16,9 @@ Public index status: verified on 2026-06-26 against the live GitHub organization
 |---|---|---|
 | Read, organize, and export a local document library | [DokuReader](https://github.com/doc-bricks/DokuReader) | Topic-based document manager with previews, reading state, PDF bundling, and metadata-only JSON export |
 | Work with Markdown notes and clean reading sessions | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Local Markdown viewer/editor with reading mode, raw editing, PDF export, and PWA companion |
+| Organize local media and document context | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage |
 | Manage literature, PDFs, BibTeX, and research notes | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature manager for academic reading, bibliography workflows, and PDF-centered research |
+| Launch the mail-tool family from one tray app | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | System tray entry point for Universal Mail Cleaner, UniversalDocsGrabber, and UniversalInvoiceMail |
 | Download and archive mail attachments locally | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | IMAP/Gmail attachment downloader with OCR, PDF conversion, dedupe, and review workflows |
 | Clean large IMAP or Gmail mailboxes safely | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleaner with safe trash mode, labels, scheduler, and large-item cleanup |
 | Collect invoices and receipts from mail | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice extractor with Gmail/IMAP input, OCR, PDF conversion, JSON export, and DATEV-oriented workflows |
@@ -24,19 +26,19 @@ Public index status: verified on 2026-06-26 against the live GitHub organization
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of 2026-06-26. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of 2026-07-11. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|
 | [.github](https://github.com/doc-bricks/.github) | Organization profile and shared community-health files | Start page, issue templates, pull request template, security policy, and `llms.txt` |
-| [DokuReader](https://github.com/doc-bricks/DokuReader) | Document library | Local-first document manager, reading state, topic organization, preview workflow, PDF bundling |
+| [DokuReader](https://github.com/doc-bricks/DokuReader) | Document library | Local-first document manager, reading state, topic organization, preview workflow, PDF bundling, metadata-only JSON export |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown reading and editing | Markdown viewer/editor, reading mode, PDF export, session handoff, PWA companion |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature management | PDF library, BibTeX workflows, academic reading, research notes, JSON export |
-| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Mail attachment intake | IMAP/Gmail attachment downloader, OCR, PDF conversion, dedupe, document archive review |
+| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Mail attachment intake | IMAP/Gmail document downloader, OCR, PDF conversion, dedupe, PWA review |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleanup | Gmail and IMAP cleaner, safe trash mode, labels, scheduler, large-item cleanup |
-| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt intake | Invoice extractor, OCR, PDF conversion, JSON export, DATEV-oriented archive workflows |
+| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt intake | Invoice and receipt email archiver, OCR, PDF conversion, JSON export, DATEV-style CSV export |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | Mail tool launcher | System tray entry point for Universal Mail Cleaner, UniversalDocsGrabber, and UniversalInvoiceMail |
-| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Media and document hub | Local media library, browser activity context, research material organization |
+| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Media and document hub | PySide6 media library manager, smart playlists, provider detection, tags, blacklist, private SQLite storage |
 | [llm-note](https://github.com/doc-bricks/llm-note) | Agent notes and notebooks | Local-first SQLite note log, plain-text notebooks, six locales, CLI/Python API, and standalone agent skill |
 
 ## Project Families
@@ -48,7 +50,7 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Local-first document library with topic organization, previews, read status, PDF bundling, and metadata export |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown viewer/editor for clean reading, editing, PDF export, and session handoff |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature management suite with PDF, BibTeX, JSON export, and research-oriented organization |
-| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Local media and document hub for files, browser activity, and research material |
+| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Local-first PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage |
 
 ### Mail And Intake Workflows
 
@@ -56,8 +58,8 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 |---|---|
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | System tray launcher for Universal Mail Cleaner, UniversalDocsGrabber, and UniversalInvoiceMail |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Local Gmail and IMAP mailbox cleanup with safe modes and scheduler support |
-| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Attachment downloader and document archive builder for mail-based document intake |
-| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt collection pipeline for local archives and accounting-oriented exports |
+| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Attachment downloader and document archive builder for IMAP/Gmail intake, OCR, PDF conversion, and PWA review |
+| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt collection pipeline for local archives, OCR/PDF conversion, JSON export, and DATEV-style CSV export |
 
 ### PDF, OCR, And Export
 
@@ -83,7 +85,7 @@ This index covers every public doc-bricks repository visible on GitHub as of 202
 
 ## Discovery Signals
 
-Useful search phrases for the public doc-bricks profile include `local-first document tools`, `Python document management`, `PySide6 PDF OCR`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, `invoice mail OCR DATEV export`, and `local-first LLM agent notes`.
+Useful search phrases for the public doc-bricks profile include `local-first document tools`, `Python document management`, `PySide6 PDF OCR`, `DokuReader metadata JSON export`, `MediaBrain smart playlists private SQLite`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, `invoice mail OCR DATEV export`, and `local-first LLM agent notes`.
 
 ## Machine-Readable Context
 

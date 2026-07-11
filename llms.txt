@@ -1,12 +1,12 @@
 # doc-bricks
 
-doc-bricks is the document-work branch of the brick suite: local-first desktop tools for document libraries, Markdown reading, OCR, PDF export, mail attachment intake, invoice archiving, literature management, and personal knowledge workflows.
+doc-bricks is the document-work branch of the brick suite: local-first desktop tools for document libraries, Markdown reading, OCR, PDF export, mail attachment intake, invoice archiving, literature management, media libraries, and personal knowledge workflows.
 
 Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
-Public repository directory updated: 2026-06-26. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 10 repositories total, including `.github` plus 9 public product/tool repositories.
+Public repository directory updated: 2026-07-11. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 10 repositories total, including `.github` plus 9 public product/tool repositories.
 
 ## Primary repositories
 
@@ -19,15 +19,15 @@ Public repository directory updated: 2026-06-26. The public organization profile
 - LitZentrum: https://github.com/doc-bricks/LitZentrum
   Literature management suite for PDFs, BibTeX, JSON export, and academic reading workflows.
 - UniversalDocsGrabber: https://github.com/doc-bricks/UniversalDocsGrabber
-  Local IMAP and Gmail attachment downloader with OCR, PDF conversion, dedupe, and review workflows.
+  Local-first IMAP and Gmail document downloader with OCR, PDF conversion, dedupe, and PWA review workflows.
 - UniversalMailCleaner: https://github.com/doc-bricks/UniversalMailCleaner
   Local-first Gmail and IMAP mailbox cleaner with safe trash mode, labels, scheduler, and large-item cleanup.
 - UniversalInvoiceMail: https://github.com/doc-bricks/UniversalInvoiceMail
-  Invoice and receipt extractor from IMAP and Gmail with OCR, PDF conversion, JSON export, and DATEV-oriented archive workflows.
+  Local-first Windows invoice and receipt email archiver with IMAP, Gmail API, OCR, PDF conversion, JSON export, and DATEV-style CSV export.
 - MailProcessor: https://github.com/doc-bricks/MailProcessor
   System tray launcher for the Universal Mail Tools family.
 - MediaBrain: https://github.com/doc-bricks/MediaBrain
-  Local media and document hub for files, browser activity, and research material.
+  Local-first PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage.
 - llm-note: https://github.com/doc-bricks/llm-note
   Local-first notes and notebook inboxes for LLM agents: SQLite note log, plain-text notebooks, CLI/Python API, six locales, and standalone agent skill.
 
@@ -37,6 +37,7 @@ Public repository directory updated: 2026-06-26. The public organization profile
 - Desktop workflows for Windows and cross-platform Python environments.
 - Human-readable and LLM-readable project documentation.
 - Local-first note and handoff primitives for LLM-assisted workflows.
+- Local media-library context with smart playlists, tags, and private SQLite storage.
 - Practical export formats such as PDF, JSON, BibTeX, and mail/document archive formats.
 - No claim that external cloud processing is required by default.
 
@@ -46,6 +47,8 @@ Public repository directory updated: 2026-06-26. The public organization profile
 - doc-bricks document management GitHub
 - doc-bricks PDF OCR Markdown mail attachments
 - doc-bricks DokuReader CleanMarkdown LitZentrum
+- doc-bricks DokuReader metadata JSON export
+- doc-bricks MediaBrain smart playlists private SQLite
 - doc-bricks UniversalDocsGrabber UniversalMailCleaner UniversalInvoiceMail
 - doc-bricks llm-note local-first LLM agent notes
 - doc-bricks agent notes SQLite notebooks
