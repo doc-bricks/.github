@@ -97,7 +97,7 @@ doc-bricks is the document-work branch of the brick suite:
 
 [open-bricks](https://github.com/open-bricks) | [file-bricks](https://github.com/file-bricks) | [dev-bricks](https://github.com/dev-bricks)
 
-Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
+Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem: [llm-note](https://github.com/doc-bricks/llm-note) was extracted from [ellmos-ai/bach](https://github.com/ellmos-ai/bach)'s Notizblock/Denkarium patterns and remains usable as a standalone agent-notes skill.
 
 ## Related (other orgs)
 
