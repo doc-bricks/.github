@@ -74,7 +74,7 @@ graph TD
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of **2026-07-26**. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of **2026-07-29**. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|

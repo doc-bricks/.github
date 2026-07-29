@@ -2,7 +2,15 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
-## [Unreleased] - 2026-07-26
+## [1.0.3] - 2026-07-29
+
+### Changed
+- Updated verification timestamps across `profile/README.md`, `profile/README_de.md`, `README.md`, and `llms.txt` to `2026-07-29`.
+- Refined repository index descriptions for `MediaBrain`, `LitZentrum`, `DokuReader`, and `llm-note` to reflect latest feature sets.
+- Verified bilingual 1:1 parity between English (`profile/README.md`) and German (`profile/README_de.md`) organization profile landing pages.
+- Verified 100% clean UTF-8 encoding and link integrity across all public profile documentation.
+
+## [1.0.2] - 2026-07-26
 
 ### Added
 - Created German organization profile landing page `profile/README_de.md` for bilingual accessibility.

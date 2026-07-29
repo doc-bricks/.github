@@ -74,7 +74,7 @@ graph TD
 
 ## Verzeichnis der öffentlichen Repositories
 
-Dieses Verzeichnis umfasst jedes öffentliche doc-bricks Repository, das per **2026-07-26** auf GitHub sichtbar ist. Private oder interne Repositories sind auf dem öffentlichen Organisationsprofil bewusst nicht aufgeführt.
+Dieses Verzeichnis umfasst jedes öffentliche doc-bricks Repository, das per **2026-07-29** auf GitHub sichtbar ist. Private oder interne Repositories sind auf dem öffentlichen Organisationsprofil bewusst nicht aufgeführt.
 
 | Repository | Rolle | Entdeckungs-Hinweise |
 |---|---|---|
