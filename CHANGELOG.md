@@ -2,6 +2,11 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.4] - 2026-08-01
+
+### Fixed
+- Corrected the ecosystem architecture diagram in `profile/README.md` and `profile/README_de.md`: `llm-note` is a notepad for humans whose content is filled by LLMs on the user's behalf — not a notepad for LLM agents. (Ref T-20260801-02)
+
 ## [1.0.3] - 2026-07-29
 
 ### Changed

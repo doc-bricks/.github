@@ -42,7 +42,7 @@ graph TD
         MB["MediaBrain (PySide6 Media Library)"]
     end
 
-    subgraph AgentNotes ["Agent Notes & Knowledge"]
+    subgraph HumanNotes ["Notepad for Humans — filled by LLMs on your behalf"]
         LN["llm-note (SQLite & Notebooks)"]
     end
 
