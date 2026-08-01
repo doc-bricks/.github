@@ -10,6 +10,8 @@
 
 <p align="center">
   <a href="https://github.com/doc-bricks/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Öffentliche_Repos-10-blue?style=flat-square&logo=github" alt="Öffentliche Repositories" /></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Dachorganisation-open--bricks-blue?style=flat-square&logo=github" alt="Dachorganisation: open-bricks" /></a>
+  <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ökosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ökosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Fokus-Lokale_Dokumenten--Tools-emerald?style=flat-square" alt="Fokus" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Datenschutz-100%25_Lokale_Daten-purple?style=flat-square" alt="Datenschutz" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lizenz-MIT-blue?style=flat-square" alt="Lizenz" /></a>
@@ -74,7 +76,7 @@ graph TD
 
 ## Verzeichnis der öffentlichen Repositories
 
-Dieses Verzeichnis umfasst jedes öffentliche doc-bricks Repository, das per **2026-07-29** auf GitHub sichtbar ist. Private oder interne Repositories sind auf dem öffentlichen Organisationsprofil bewusst nicht aufgeführt.
+Dieses Verzeichnis umfasst jedes öffentliche doc-bricks Repository, das per **2026-08-01** auf GitHub sichtbar ist. Private oder interne Repositories sind auf dem öffentlichen Organisationsprofil bewusst nicht aufgeführt.
 
 | Repository | Rolle | Entdeckungs-Hinweise |
 |---|---|---|

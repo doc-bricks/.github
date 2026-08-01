@@ -7,6 +7,11 @@ All notable changes to the `doc-bricks/.github` repository will be documented in
 ### Fixed
 - Corrected the ecosystem architecture diagram in `profile/README.md` and `profile/README_de.md`: `llm-note` is a notepad for humans whose content is filled by LLMs on the user's behalf — not a notepad for LLM agents. (Ref T-20260801-02)
 
+### Changed
+- Updated verification timestamps across `profile/README.md`, `profile/README_de.md`, `README.md`, and `llms.txt` to `2026-08-01`.
+- Enhanced Shields.io badges in `profile/README.md` and `profile/README_de.md` with explicit `open-bricks` umbrella and `ellmos-ai` ecosystem integration.
+- Verified 1:1 bilingual parity and public repository directory completeness across all 10 public `doc-bricks` repositories.
+
 ## [1.0.3] - 2026-07-29
 
 ### Changed
