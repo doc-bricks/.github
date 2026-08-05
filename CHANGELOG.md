@@ -2,6 +2,15 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.5] - 2026-08-06
+
+### Added
+- Added a "Repository Showcase" banner grid to `profile/README.md` and `profile/README_de.md`, following the ellmos-ai org-profile pattern: verified `banner.svg` artwork for all 9 public product/tool repositories, each linking to its repository, with the existing text tables kept as the detail reference below the banners.
+
+### Changed
+- Updated verification timestamps across `profile/README.md`, `profile/README_de.md`, `README.md`, and `llms.txt` to `2026-08-06`.
+- Re-verified the public repository index against the live GitHub organization: still 10 public repositories (`.github` plus 9 product/tool repositories); no private repository is referenced anywhere in this repository's documentation.
+
 ## [1.0.4] - 2026-08-01
 
 ### Fixed
