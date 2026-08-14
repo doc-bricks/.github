@@ -6,7 +6,7 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
-Public repository directory updated: 2026-08-06. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 10 repositories total, including `.github` plus 9 public product/tool repositories.
+Public repository directory updated: 2026-08-14. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 10 repositories total, including `.github` plus 9 public product/tool repositories.
 
 ## Primary repositories
 
@@ -30,6 +30,11 @@ Public repository directory updated: 2026-08-06. The public organization profile
   Local-first PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage.
 - llm-note: https://github.com/doc-bricks/llm-note
   Local-first notes and notebook inboxes for LLM agents: SQLite note log, plain-text notebooks, CLI/Python API, six locales, and standalone agent skill.
+
+## Capability matrix summary
+
+- Document & Note Libraries: DokuReader (multi-format & JSON metadata), CleanMarkdown (Markdown & PDF), LitZentrum (PDF & BibTeX), llm-note (SQLite & Agent prompts), MediaBrain (Media & Private SQLite).
+- Mail Intake & Archiving: UniversalDocsGrabber (attachment OCR & PDF), UniversalInvoiceMail (invoices & DATEV CSV), UniversalMailCleaner (safe cleanup & retention), MailProcessor (system tray orchestration).
 
 ## Positioning
 

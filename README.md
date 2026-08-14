@@ -1,5 +1,19 @@
 # doc-bricks .github
 
+<p align="center">
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Public_Repos-10-blue?style=flat-square&logo=github" alt="Public Repositories" /></a>
+  <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Umbrella-open--bricks-blue?style=flat-square&logo=github" alt="Umbrella: open-bricks" /></a>
+  <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ecosystem: ellmos-ai" /></a>
+  <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Focus-Local--First_Document_Tools-emerald?style=flat-square" alt="Focus" /></a>
+  <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Privacy-100%25_Local_Data-purple?style=flat-square" alt="Privacy" /></a>
+  <a href="https://github.com/doc-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/doc-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM_Context-llms.txt-orange?style=flat-square" alt="LLM Context" /></a>
+  <a href="profile/README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=flat-square" alt="German Version" /></a>
+</p>
+
+> [!NOTE]
+> **Organization Landing Pages:** The official organization profiles are located in [`profile/README.md`](profile/README.md) (English) and [`profile/README_de.md`](profile/README_de.md) (Deutsch).
+
 This repository contains the public organization profile and shared community-health files for [doc-bricks](https://github.com/doc-bricks).
 
 The profile README in [`profile/README.md`](profile/README.md) (and German version in [`profile/README_de.md`](profile/README_de.md)) is the landing page shown on the doc-bricks GitHub organization. It introduces local-first desktop tools for reading, OCR, PDF export, mail attachment intake, invoice archiving, literature management, media libraries, and LLM-ready notes.
@@ -8,7 +22,7 @@ The public repository directory is maintained against the public GitHub organiza
 
 ## Current Public Index
 
-Verified: 2026-08-06. The public doc-bricks organization currently exposes 10 public repositories: this `.github` profile repository plus 9 public product/tool repositories.
+Verified: 2026-08-14. The public doc-bricks organization currently exposes 10 public repositories: this `.github` profile repository plus 9 public product/tool repositories.
 
 | Repository | Role |
 |---|---|

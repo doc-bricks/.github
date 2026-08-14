@@ -2,6 +2,17 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.6] - 2026-08-14
+
+### Added
+- Added a structured "Capability & Format Matrix" to `profile/README.md` and `profile/README_de.md`, outlining input formats, core capabilities, primary use cases, and output/export formats across all 9 product repositories.
+- Modernized root `README.md` header with Shields.io status and ecosystem badges (Public Repos, Umbrella, Ecosystem, Focus, Privacy, License, LLM Context, Language Switcher) and GFM landing page callout boxes.
+
+### Changed
+- Updated verification timestamps across `profile/README.md`, `profile/README_de.md`, `README.md`, and `llms.txt` to `2026-08-14`.
+- Enhanced `llms.txt` AI discovery index with capability matrix summary, expanded search terms, and cross-organization links.
+- Verified 1:1 bilingual parity and authentic German umlauts throughout all documentation files.
+
 ## [1.0.5] - 2026-08-06
 
 ### Added

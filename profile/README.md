@@ -74,6 +74,22 @@ graph TD
 
 ---
 
+## Capability & Format Matrix
+
+| Repository | Formats & Sources | Core Capabilities | Primary Use Case | Output & Exports |
+|---|---|---|---|---|
+| [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown, Plaintext, HTML | Distraction-free reading, split-view editing, live preview | Focused Markdown editing and session handoffs | Formatted PDF, HTML, PWA session JSON |
+| [DokuReader](https://github.com/doc-bricks/DokuReader) | PDF, EPUB, TXT, MD | Multi-tab reader, topic trees, bookmarking, reading progress | Local-first document library & topic organization | PDF bundles, metadata-only JSON export |
+| [LitZentrum](https://github.com/doc-bricks/LitZentrum) | PDF, BibTeX, DOI references | Academic paper catalog, citation management, literature notes | Scientific paper analysis & bibliography maintenance | BibTeX `.bib`, structured JSON index |
+| [llm-note](https://github.com/doc-bricks/llm-note) | SQLite, Plaintext Markdown | Agent scratchpad, prompt logs, structured notes inbox | Memory persistence and notebook inbox for LLMs | SQLite DB, Markdown notebooks, CLI/Python API |
+| [MailProcessor](https://github.com/doc-bricks/MailProcessor) | IMAP, Gmail, EML | System tray launcher, process daemon, quick status | Unified tray orchestration for all mail utilities | Process supervisor, desktop notifications |
+| [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Audio, Video, Images, Documents | Smart playlists, provider detection, tagging, blacklist | Local media & document asset management | Private SQLite DB, structured playlist exports |
+| [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | IMAP/Gmail Attachments, PDFs, Images | Automated batch fetch, deduplication, OCR processing | Document mail attachment harvesting & archiving | Searchable PDFs, OCR text, PWA review |
+| [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | IMAP/Gmail Invoices & Receipts | Header parsing, OCR, amount detection, duplicate filter | Invoice collection & accounting preparation | Searchable PDFs, DATEV-style CSV, JSON |
+| [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | IMAP, Gmail Mailboxes | Size filtering, rule-based cleanup, safe trash mode | Mailbox maintenance and storage reclamation | Clean mailbox, cleanup audit reports |
+
+---
+
 ## Repository Showcase
 
 Our local-first document toolset — the banners are the links; details in the table below:
@@ -86,7 +102,7 @@ More repositories without their own artwork yet: **[.github](https://github.com/
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of **2026-08-06**. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of **2026-08-14**. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|
@@ -176,4 +192,3 @@ Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem: [llm-note](http
 | Project | Description |
 |---|---|
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual knowledge-stub dataset (630 terms, 12 domains, DE/EN + es/ja/ru/zh) with a web publisher — deployable as a self-contained wiki module |
-
