@@ -102,7 +102,7 @@ More repositories without their own artwork yet: **[.github](https://github.com/
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of **2026-08-14**. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of **2026-08-16**. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|

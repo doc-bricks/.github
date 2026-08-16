@@ -22,7 +22,7 @@ The public repository directory is maintained against the public GitHub organiza
 
 ## Current Public Index
 
-Verified: 2026-08-14. The public doc-bricks organization currently exposes 10 public repositories: this `.github` profile repository plus 9 public product/tool repositories.
+Verified: 2026-08-16. The public doc-bricks organization currently exposes 10 public repositories: this `.github` profile repository plus 9 public product/tool repositories.
 
 | Repository | Role |
 |---|---|

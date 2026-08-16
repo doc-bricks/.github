@@ -102,7 +102,7 @@ Weitere Repositories ohne eigenes Artwork: **[.github](https://github.com/doc-br
 
 ## Verzeichnis der öffentlichen Repositories
 
-Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **2026-08-14** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
+Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **2026-08-16** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
 
 | Repository | Rolle | Beschreibung |
 |---|---|---|

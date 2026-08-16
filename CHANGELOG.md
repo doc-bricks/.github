@@ -2,6 +2,13 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.7] - 2026-08-16
+
+### Changed
+- Re-verified the public repository index against the live GitHub organization: 10 public repositories (`.github` plus 9 product/tool repositories) remain fully represented in `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Updated the verification date across all four index files to `2026-08-16` after confirming the live public repository list.
+- Preserved bilingual parity, Shields.io badges, GFM callouts, Mermaid architecture diagrams, and authentic German umlauts.
+
 ## [1.0.6] - 2026-08-14
 
 ### Added
