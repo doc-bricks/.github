@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/doc-bricks/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Öffentliche_Repos-10-blue?style=flat-square&logo=github" alt="Öffentliche Repositories" /></a>
+  <a href="https://github.com/doc-bricks/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Öffentliche_Repos-12-blue?style=flat-square&logo=github" alt="Öffentliche Repositories" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Dachorganisation-open--bricks-blue?style=flat-square&logo=github" alt="Dachorganisation: open-bricks" /></a>
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ökosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ökosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Fokus-Local--First_Dokumentenwerkzeuge-emerald?style=flat-square" alt="Fokus" /></a>
@@ -39,9 +39,14 @@ graph TD
 
     subgraph Library ["Dokumenten- & Medienbibliotheken"]
         DR["DokuReader (Dokumenten-Zentrum)"]
+        DZ["DokuZen (Dokumenten-Suite)"]
         CM["CleanMarkdown (Reader & Editor)"]
         LZ["LitZentrum (Literatur & BibTeX)"]
         MB["MediaBrain (PySide6 Medienbibliothek)"]
+    end
+
+    subgraph Processing ["PDF- & OCR-Verarbeitung"]
+        PPO["PDFtoPDFocr (Durchsuchbare PDF-OCR)"]
     end
 
     subgraph HumanNotes ["Notizblock für Menschen — befüllt durch LLMs im Auftrag des Nutzers"]
@@ -63,6 +68,7 @@ graph TD
 | Ziel | Empfohlenes Werkzeug | Kernfunktion |
 |---|---|---|
 | Lokale Dokumentenbibliotheken, Themen und PDF-Pakete verwalten | [DokuReader](https://github.com/doc-bricks/DokuReader) | Local-First Dokumentenverwaltung, Vorschau, Lesestatus, PDF-Bündelung und Metadaten-JSON-Export |
+| Dokumente in einer plattformübergreifenden Arbeitsumgebung verwalten und verarbeiten | [DokuZen](https://github.com/doc-bricks/DokuZen) | Local-First Desktop-Suite für Dokumentenbibliothek, Text-, PDF- und OCR-Verarbeitung, Schwärzung, Konvertierung und Dateiwerkzeuge |
 | Markdown ohne Cloud-Abhängigkeit lesen und bearbeiten | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Lokaler Markdown-Viewer/Editor mit fokussiertem Lesemodus, PDF-Export, Sitzungsübergabe und PWA-Begleiter |
 | Lokale Medien und Dokumentenkontexte organisieren | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | PySide6 Medienbibliothek mit intelligenten Playlists, Anbietererkennung, Tags, Blacklist und privater SQLite-Ablage |
 | Literatur, PDFs, BibTeX und Forschungsnotizen pflegen | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literaturverwaltung für akademisches Lesen, Bibliografie-Workflows und PDF-zentrierte Recherche |
@@ -70,6 +76,7 @@ graph TD
 | Mail-Anhänge lokal herunterladen und archivieren | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | IMAP/Gmail-Anhangs-Downloader mit OCR, PDF-Konvertierung, Dublettenerkennung und Prüf-Workflows |
 | Große IMAP- oder Gmail-Postfächer sicher bereinigen | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Postfach-Bereinigung mit sicherem Papierkorb-Modus, Labels, Zeitplaner und Großdatei-Bereinigung |
 | Rechnungen und Belege aus Mails erfassen | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Rechnungsextraktor mit Gmail/IMAP-Eingang, OCR, PDF-Konvertierung, JSON-Export und DATEV-orientierten Workflows |
+| Gescannte PDFs und Bilder in durchsuchbare PDFs umwandeln | [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Lokaler PySide6-Stapelkonverter mit Tesseract OCR, auswählbaren Sprachen und nichtdestruktiver Ausgabe |
 | Lokale Notizen für LLM-Agenten führen | [llm-note](https://github.com/doc-bricks/llm-note) | Local-First SQLite-Notizen, Plaintext-Notizbücher, sechs Sprachen und eigenständiger Agenten-Skill |
 
 ---
@@ -80,10 +87,12 @@ graph TD
 |---|---|---|---|---|
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown, Text, HTML | Ablenkungsfreier Lesemodus, Split-View, Live-Vorschau | Konzentriertes Lesen und saubere Bearbeitung | Formatiertes PDF, HTML, PWA-Sitzungsübergabe |
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | PDF, EPUB, TXT, MD | Multi-Tab-Reader, Themenbäume, Lesezeichen, Lesestatus | Zentrales Archiv für Dokumente und Recherche | PDF-Pakete, Metadaten-JSON-Export |
+| [DokuZen](https://github.com/doc-bricks/DokuZen) | PDF, DOCX, Markdown, TXT, Bilder | Dokumentenbibliothek, PDF-Werkstatt, OCR, Schwärzung, Konvertierung, Dateiwerkzeuge | Einheitliche lokale Dokumentenverwaltung und -verarbeitung | Durchsuchbare PDFs, konvertierte Dokumente, lokale Metadaten |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | PDF, BibTeX, DOI-Referenzen | Akademischer Katalog, Zitationsmanagement, Notizen | Wissenschaftliche Literatur & Zitationsverwaltung | BibTeX `.bib`, strukturierter JSON-Index |
 | [llm-note](https://github.com/doc-bricks/llm-note) | SQLite, Plaintext Markdown | Agenten-Notizblock, Prompt-Ablage, strukturierte Notizen | Speicherpersistenz & Notiz-Inbox für LLMs | SQLite-DB, Markdown-Notizbücher, CLI/Python-API |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | IMAP, Gmail, EML | System-Tray-Starter, Hintergrunddienst, Statusanzeige | Zentraler Zugriff und Launcher für Mail-Tools | Prozess-Manager, Desktop-Benachrichtigungen |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Audio, Video, Bilder, Dokumente | Smarte Playlists, Anbieter-Erkennung, Tagging, Blacklist | Lokale Medien- und Dokumentverwaltung | Private SQLite-DB, Playlist-Exporte |
+| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Gescannte PDFs, JPG, PNG, TIFF | Stapel-OCR, Sprachauswahl, Bildimport, optionales Zusammenführen | Lokale Konvertierung von Scans in durchsuchbare Dokumente | Durchsuchbare `*_ocred.pdf`, portables Auftragsmanifest |
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | IMAP/Gmail-Anhänge, PDFs, Bilder | Automatischer Download, Duplikaterkennung, OCR-Pipeline | Automatische Erfassung von Mail-Anhängen | Durchsuchbare PDFs, OCR-Text, PWA-Review |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | IMAP/Gmail-Rechnungen, Belege | Header-Extraktion, OCR, Betragserkennung, Dublettenfilter | Automatisierte Buchhaltungs- und Belegaufnahme | Durchsuchbare PDFs, DATEV-kompatible CSV, JSON |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | IMAP, Gmail-Postfächer | Größenfilter, regelbasierte Bereinigung, sicherer Papierkorb | Postfachpflege & Speicherplatzrückgewinnung | Bereinigtes Postfach, Prüfprotokolle |
@@ -96,23 +105,27 @@ Unser lokales Dokumenten-Werkzeugset — die Banner dienen als direkte Links; De
 
 <p align="center"><a href="https://github.com/doc-bricks/CleanMarkdown"><img src="https://raw.githubusercontent.com/doc-bricks/CleanMarkdown/main/assets/banner.svg" alt="CleanMarkdown" width="680" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/DokuReader"><img src="https://raw.githubusercontent.com/doc-bricks/DokuReader/master/assets/banner.svg" alt="DokuReader" width="680" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/LitZentrum"><img src="https://raw.githubusercontent.com/doc-bricks/LitZentrum/master/assets/banner.svg" alt="LitZentrum" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/llm-note"><img src="https://raw.githubusercontent.com/doc-bricks/llm-note/main/assets/banner.svg" alt="llm-note" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/MailProcessor"><img src="https://raw.githubusercontent.com/doc-bricks/MailProcessor/main/assets/banner.svg" alt="MailProcessor" width="680" style="border:2px solid #e879f9;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/MediaBrain"><img src="https://raw.githubusercontent.com/doc-bricks/MediaBrain/master/assets/banner.svg" alt="MediaBrain" width="680" style="border:2px solid #a3e635;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/UniversalDocsGrabber"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalDocsGrabber/master/assets/banner.svg" alt="UniversalDocsGrabber" width="680" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/UniversalInvoiceMail"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalInvoiceMail/master/assets/banner.svg" alt="UniversalInvoiceMail" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/UniversalMailCleaner"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalMailCleaner/master/assets/banner.svg" alt="UniversalMailCleaner" width="680" style="border:2px solid #818cf8;border-radius:8px;display:block;margin:0 auto"></a></p>
 
+<p align="center"><a href="https://github.com/doc-bricks/DokuZen"><img src="https://raw.githubusercontent.com/doc-bricks/DokuZen/main/assets/banner.png" alt="DokuZen" width="680" style="border:2px solid #0ea5e9;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/doc-bricks/PDFtoPDFocr"><img src="https://raw.githubusercontent.com/doc-bricks/PDFtoPDFocr/master/assets/banner.png" alt="PDFtoPDFocr" width="680" style="border:2px solid #22c55e;border-radius:8px;display:block;margin:0 auto"></a></p>
+
 Weitere Repositories ohne eigenes Artwork: **[.github](https://github.com/doc-bricks/.github)** (Organisationsprofil und zentrale Community-Dateien)
 
 ---
 
 ## Verzeichnis der öffentlichen Repositories
 
-Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **2026-08-16** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
+Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **2026-09-05** auf: insgesamt 12 aktive Repositories (`.github` sowie 11 Produkt-/Werkzeug-Repositories), keines davon archiviert. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
 
 | Repository | Rolle | Beschreibung |
 |---|---|---|
 | [.github](https://github.com/doc-bricks/.github) | Organisationsprofil und gemeinsame Community-Dateien | Startseite, Issue-Templates, Pull-Request-Vorlage, Sicherheitsrichtlinie und `llms.txt` |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown-Lesen und Bearbeiten | Markdown-Viewer/Editor, Lesemodus, PDF-Export, Sitzungsübergabe, PWA-Begleiter |
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Dokumentenbibliothek | Local-First Dokumentenverwaltung, Lesestatus, Themenorganisation, Vorschau, PDF-Bündelung, Metadaten-JSON-Export |
+| [DokuZen](https://github.com/doc-bricks/DokuZen) | Dokumentenverwaltung und Verarbeitungssuite | Plattformübergreifende Local-First Arbeitsumgebung für Dokumentenbibliotheken, Text- und PDF-Verarbeitung, OCR, Schwärzung, Konvertierung und Dateiwerkzeuge |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literaturverwaltung | PDF-Bibliothek, BibTeX-Workflows, akademisches Lesen, Forschungsnotizen, JSON-Export |
 | [llm-note](https://github.com/doc-bricks/llm-note) | Agenten-Notizen und Notizbücher | Local-First SQLite-Notizprotokoll, Plaintext-Notizbücher, sechs Sprachen, CLI/Python-API und eigenständiger Agenten-Skill |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | Mail-Werkzeug-Starter | System-Tray-Einstiegspunkt für Universal Mail Cleaner, UniversalDocsGrabber und UniversalInvoiceMail |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Medien- und Dokumentenzentrum | PySide6 Medienbibliotheksverwaltung, smarte Playlists, Anbietererkennung, Tags, Blacklist, private SQLite-Ablage |
+| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Durchsuchbare PDF-OCR | Lokaler PySide6- und Tesseract-Stapelkonverter für gescannte PDFs und Bilder mit nichtdestruktiver, durchsuchbarer PDF-Ausgabe |
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Mail-Anhangs-Erfassung | IMAP/Gmail-Dokumenten-Downloader, OCR, PDF-Konvertierung, Duplikaterkennung, PWA-Prüfung |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Rechnungs- und Beleg-Erfassung | Rechnungs- und Beleg-Archivierung, OCR, PDF-Konvertierung, JSON-Export, DATEV-kompatibler CSV-Export |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Postfach-Bereinigung | Gmail- und IMAP-Bereiniger, sicherer Papierkorb-Modus, Labels, Zeitplaner, Großdatei-Bereinigung |
@@ -126,6 +139,7 @@ Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stan
 | Anwendung | Beschreibung |
 |---|---|
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Local-First Dokumentenbibliothek mit Themenorganisation, Vorschauen, Lesestatus, PDF-Bündelung und Metadatenexport |
+| [DokuZen](https://github.com/doc-bricks/DokuZen) | Plattformübergreifende Local-First Dokumentenverwaltungs- und Verarbeitungssuite mit integrierten Text-, PDF-, OCR- und Dateiwerkzeugen |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Markdown-Viewer/Editor für sauberes Lesen, Bearbeiten, PDF-Export und Sitzungsübergabe |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literaturverwaltungs-Suite mit PDF, BibTeX, JSON-Export und forschungsorientierter Strukturierung |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Local-First PySide6 Medienbibliothek mit smarten Playlists, Anbietererkennung, Tags, Blacklist und privater SQLite-Ablage |
@@ -146,6 +160,8 @@ Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stan
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Konvertiert heruntergeladene Mail-Dokumente in prüfbares PDF/OCR-Archivmaterial |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Konvertiert Rechnungs- und Beleg-Mails in PDF/OCR-Archivmaterial und buchhaltungsrelevante Exporte |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Exportiert Markdown-Lesesitzungen nach PDF und begleitende Webformate |
+| [DokuZen](https://github.com/doc-bricks/DokuZen) | Vereint PDF-Verarbeitung, OCR, Schwärzung, Konvertierung und Dokumentenbibliothek in einer lokalen Arbeitsumgebung |
+| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Konvertiert gescannte PDFs und Bilder lokal mit Tesseract OCR in durchsuchbare PDFs |
 
 ### Notizen und Agenten-Handoffs
 
@@ -167,7 +183,7 @@ Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stan
 
 ## Such- und Entdeckungssignale
 
-Empfohlene Suchbegriffe für das öffentliche doc-bricks-Profil sind `local-first document tools`, `Python Dokumentenverwaltung`, `PySide6 PDF OCR`, `DokuReader metadata JSON export`, `MediaBrain smart playlists private SQLite`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, `invoice mail OCR DATEV export` und `local-first LLM agent notes`.
+Empfohlene Suchbegriffe für das öffentliche doc-bricks-Profil sind `local-first document tools`, `Python Dokumentenverwaltung`, `PySide6 PDF OCR`, `DokuReader metadata JSON export`, `DokuZen document PDF OCR suite`, `PDFtoPDFocr searchable PDF Tesseract`, `MediaBrain smart playlists private SQLite`, `Gmail IMAP attachment downloader`, `Markdown PDF export`, `literature manager GitHub`, `invoice mail OCR DATEV export` und `local-first LLM agent notes`.
 
 ---
 

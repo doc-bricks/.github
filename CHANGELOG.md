@@ -2,6 +2,16 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.8] - 2026-09-05
+
+### Security
+- Pinned `actions/stale` to the verified immutable commit for `v10.4.0` and `actions/first-interaction` to the verified immutable commit for `v3.1.0`, preserving the existing triggers, permissions, and behavior.
+
+### Changed
+- Re-read the live public `doc-bricks` inventory from the GitHub API: 12 active public repositories (`.github` plus 11 product/tool repositories), with no archived repositories; private and internal repositories remain excluded.
+- Added `DokuZen` and `PDFtoPDFocr` to the root README, English and German organization profiles, repository showcase, capability and family sections, and `llms.txt`, using their current public README descriptions and verified `assets/banner.png` files.
+- Synchronized the four public index surfaces to the 2026-09-05 inventory and canonical repository names.
+
 ## [1.0.7] - 2026-08-16
 
 ### Changed
