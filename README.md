@@ -1,7 +1,7 @@
 # doc-bricks .github
 
 <p align="center">
-  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Public_Repos-10-blue?style=flat-square&logo=github" alt="Public Repositories" /></a>
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Public_Repos-12-blue?style=flat-square&logo=github" alt="Public Repositories" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Umbrella-open--bricks-blue?style=flat-square&logo=github" alt="Umbrella: open-bricks" /></a>
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ecosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Focus-Local--First_Document_Tools-emerald?style=flat-square" alt="Focus" /></a>
@@ -22,17 +22,19 @@ The public repository directory is maintained against the public GitHub organiza
 
 ## Current Public Index
 
-Verified: 2026-08-16. The public doc-bricks organization currently exposes 10 public repositories: this `.github` profile repository plus 9 public product/tool repositories.
+Verified: 2026-09-07. The public doc-bricks organization currently exposes 12 public repositories: this `.github` profile repository plus 11 public product/tool repositories.
 
 | Repository | Role |
 |---|---|
 | [.github](https://github.com/doc-bricks/.github) | Organization profile, shared community-health files, and machine-readable org context |
 | [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Local Markdown viewer/editor with reading mode, PDF export, and PWA companion |
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Local-first document library with topic organization, previews, reading state, PDF bundling, and metadata-only JSON export |
+| [DokuZen](https://github.com/doc-bricks/DokuZen) | Cross-platform local-first PySide6 document and PDF suite combining 22 text, PDF, OCR, and file utilities |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature manager for PDFs, BibTeX, research notes, and companion JSON export |
 | [llm-note](https://github.com/doc-bricks/llm-note) | Local-first SQLite notes and notebook inboxes for LLM agents |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | System tray launcher for the Universal Mail Tools family |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Local-first PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage |
+| [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Local-first PySide6/Tesseract converter for batch-producing searchable PDFs while preserving originals |
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Local-first IMAP/Gmail document downloader with OCR, PDF conversion, dedupe, and PWA review |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Local-first Windows invoice and receipt email archiver with IMAP, Gmail API, OCR, PDF conversion, and DATEV-style CSV export |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Gmail and IMAP mailbox cleaner with safe trash mode, labels, and scheduler support |

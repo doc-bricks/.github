@@ -2,6 +2,15 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.8] - 2026-09-07
+
+### Changed
+- Reconciled the local profile repository with `origin/main` by fast-forward before updating the public index.
+- Re-verified 12 live public, non-fork, non-archived repositories (`.github` plus 11 product/tool repositories) and synchronized the count and verification date across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Integrated `DokuZen` and `PDFtoPDFocr` with source-backed roles, links, architecture diagrams, capability matrix, tool family, showcase banners, and machine-readable `llms.txt` discovery entries while keeping private/internal repos strictly excluded.
+- Enhanced GitHub discoverability for `doc-bricks/DokuZen` by establishing descriptive topics (`desktop-app`, `document-processing`, `local-first`, `ocr`, `offline-first`, `pdf`, `pdf-tools`, `pyside6`, `python`, `redaction`, `windows`), description, and homepage.
+- Cleaned up and polished the showcase banner layout across English and German organization profiles with individual centered blocks.
+
 ## [1.0.7] - 2026-08-16
 
 ### Changed

@@ -6,7 +6,7 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
 
-Public repository directory updated: 2026-08-16. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 10 repositories total, including `.github` plus 9 public product/tool repositories.
+Public repository directory updated: 2026-09-07. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 12 repositories total, including `.github` plus 11 public product/tool repositories.
 
 ## Primary repositories
 
@@ -14,6 +14,8 @@ Public repository directory updated: 2026-08-16. The public organization profile
   Organization profile, shared community-health files, issue templates, pull request template, security policy, and machine-readable organization context.
 - DokuReader: https://github.com/doc-bricks/DokuReader
   Local-first document library with topic organization, previews, read status, PDF bundling, and metadata-only JSON export.
+- DokuZen: https://github.com/doc-bricks/DokuZen
+  Cross-platform local-first PySide6 document management and processing suite combining 22 text, PDF, OCR, and file utilities in one workspace.
 - CleanMarkdown: https://github.com/doc-bricks/CleanMarkdown
   Markdown viewer/editor with clean reading mode, raw editing, PDF export, session handoff, and PWA companion.
 - LitZentrum: https://github.com/doc-bricks/LitZentrum
@@ -28,13 +30,16 @@ Public repository directory updated: 2026-08-16. The public organization profile
   System tray launcher for the Universal Mail Tools family.
 - MediaBrain: https://github.com/doc-bricks/MediaBrain
   Local-first PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage.
+- PDFtoPDFocr: https://github.com/doc-bricks/PDFtoPDFocr
+  Local-first PySide6 and Tesseract batch converter for searchable PDFs with selectable OCR languages and non-destructive source preservation.
 - llm-note: https://github.com/doc-bricks/llm-note
   Local-first notes and notebook inboxes for LLM agents: SQLite note log, plain-text notebooks, CLI/Python API, six locales, and standalone agent skill.
 
 ## Capability matrix summary
 
-- Document & Note Libraries: DokuReader (multi-format & JSON metadata), CleanMarkdown (Markdown & PDF), LitZentrum (PDF & BibTeX), llm-note (SQLite & Agent prompts), MediaBrain (Media & Private SQLite).
+- Document & Note Libraries: DokuReader (multi-format & JSON metadata), DokuZen (22 document, PDF, OCR & file utilities), CleanMarkdown (Markdown & PDF), LitZentrum (PDF & BibTeX), llm-note (SQLite & Agent prompts), MediaBrain (Media & Private SQLite).
 - Mail Intake & Archiving: UniversalDocsGrabber (attachment OCR & PDF), UniversalInvoiceMail (invoices & DATEV CSV), UniversalMailCleaner (safe cleanup & retention), MailProcessor (system tray orchestration).
+- PDF & OCR Processing: DokuZen (unified document/PDF workspace), PDFtoPDFocr (Tesseract batch OCR & searchable PDFs).
 
 ## Positioning
 
@@ -53,9 +58,11 @@ Public repository directory updated: 2026-08-16. The public organization profile
 - doc-bricks PDF OCR Markdown mail attachments
 - doc-bricks DokuReader CleanMarkdown LitZentrum
 - doc-bricks DokuReader metadata JSON export
+- doc-bricks DokuZen document PDF OCR utilities
 - doc-bricks MediaBrain smart playlists private SQLite
 - doc-bricks UniversalDocsGrabber UniversalMailCleaner UniversalInvoiceMail
 - doc-bricks llm-note local-first LLM agent notes
 - doc-bricks agent notes SQLite notebooks
 - doc-bricks invoice mail OCR DATEV export
+- doc-bricks PDFtoPDFocr Tesseract searchable PDF
 - doc-bricks literature manager PDF BibTeX
