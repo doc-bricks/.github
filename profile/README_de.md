@@ -14,6 +14,7 @@
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ökosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ökosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Fokus-Local--First_Dokumentenwerkzeuge-emerald?style=flat-square" alt="Fokus" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Datenschutz-100%25_Lokale_Daten-purple?style=flat-square" alt="Datenschutz" /></a>
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Geprüft-2026--09--11-blue?style=flat-square" alt="Geprüft 2026-09-11" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lizenz-MIT-blue?style=flat-square" alt="Lizenz" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM_Kontext-llms.txt-orange?style=flat-square" alt="LLM-Kontext" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Sprache-English-blue?style=flat-square" alt="Englische Version" /></a>
@@ -21,6 +22,7 @@
 
 > [!NOTE]
 > **Local-First & LLM-Bereit:** Alle doc-bricks-Werkzeuge laufen vollständig lokal auf Ihrem System. Dokumente, PDFs und Notizen verbleiben strikt privat. Maschinenlesbarer Kontext für LLM-Agenten und Crawler ist in [`llms.txt`](https://github.com/doc-bricks/.github/blob/main/llms.txt) hinterlegt.
+> Öffentlicher Index verifiziert anhand der Live-GitHub-API: **11. September 2026**.
 
 > [!TIP]
 > **English Version:** For the English version of this organization profile, see [`profile/README.md`](https://github.com/doc-bricks/.github/blob/main/profile/README.md).
@@ -30,7 +32,7 @@
 ## Systemarchitektur im Ökosystem
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph Intake ["Mail- & Dokumenten-Erfassung"]
         MP["MailProcessor (Tray-Starter)"] --> UMC["UniversalMailCleaner"]
         MP --> UDG["UniversalDocsGrabber"]
@@ -125,7 +127,7 @@ Weitere Repositories ohne eigenes Artwork: **[.github](https://github.com/doc-br
 
 ## Verzeichnis der öffentlichen Repositories
 
-Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **2026-09-07** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
+Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **11. September 2026** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
 
 | Repository | Rolle | Beschreibung |
 |---|---|---|
@@ -141,6 +143,27 @@ Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stan
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Mail-Anhangs-Erfassung | IMAP/Gmail-Dokumenten-Downloader, OCR, PDF-Konvertierung, Duplikaterkennung, PWA-Prüfung |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Rechnungs- und Beleg-Erfassung | Rechnungs- und Beleg-Archivierung, OCR, PDF-Konvertierung, JSON-Export, DATEV-kompatibler CSV-Export |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Postfach-Bereinigung | Gmail- und IMAP-Bereiniger, sicherer Papierkorb-Modus, Labels, Zeitplaner, Großdatei-Bereinigung |
+
+---
+
+## Aktueller öffentlicher Aktivitäts-Snapshot
+
+Live-Aktivität verifiziert via GitHub API am **11. September 2026** (UTC-Datum der API-Eigenschaft `pushed_at`):
+
+| Repository | Letzter öffentlicher Push | Fokus & Navigationszweck |
+|---|---:|---|
+| **[DokuReader](https://github.com/doc-bricks/DokuReader)** | **2026-09-11** | Local-First Dokumentenbibliothek, Themenbäume, Lesestatus, PDF-Bündelung & Metadaten-JSON-Export |
+| **[PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr)** | **2026-09-11** | Tesseract-Stapel-OCR-Engine zur Umwandlung von Scans und Bildern in durchsuchbare PDFs |
+| **[CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown)** | **2026-09-11** | Fokussierter Markdown-Viewer/Editor mit Lesemodus, PDF-Export, Sitzungsübergabe und PWA-Begleiter |
+| **[UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail)** | **2026-09-11** | Rechnungs- und Beleg-Erfassung via IMAP/Gmail-API, OCR, PDF-Konvertierung und DATEV-kompatibler CSV-Export |
+| **[MailProcessor](https://github.com/doc-bricks/MailProcessor)** | **2026-09-11** | System-Tray-Starter und Orchestrator für die Universal-Mail-Tools-Familie |
+| **[.github](https://github.com/doc-bricks/.github)** | **2026-09-11** | Organisationsprofil, Community-Dateien, Issue-Vorlagen und maschinenlesbare `llms.txt` |
+| **[UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber)** | **2026-09-10** | Automatischer Mail-Anhangs-Downloader und Dokumentenarchiv-Ersteller mit OCR und PWA-Review |
+| **[DokuZen](https://github.com/doc-bricks/DokuZen)** | **2026-09-10** | Einheitlicher Local-First PySide6-Arbeitsbereich mit 22 Text-, PDF-, OCR-, Schwärzungs- und Dateiwerkzeugen |
+| **[LitZentrum](https://github.com/doc-bricks/LitZentrum)** | **2026-08-24** | Akademische Literaturverwaltung für PDFs, BibTeX-Sammlungen, Zitations-Workflows und JSON-Exporte |
+| **[MediaBrain](https://github.com/doc-bricks/MediaBrain)** | **2026-08-21** | Medienbibliotheksverwaltung mit smarten Playlists, Anbietererkennung, Tags und privater SQLite-Ablage |
+| **[UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner)** | **2026-08-16** | Lokaler Mailbox-Reiniger mit sicherem Papierkorbmodus, Labels, Zeitplaner und Großdatei-Hygiene |
+| **[llm-note](https://github.com/doc-bricks/llm-note)** | **2026-08-03** | Local-First SQLite-Notizen und Notizbuch-Inboxes für LLM-Agenten, ausgegliedert aus BACH |
 
 ---
 
@@ -209,7 +232,19 @@ Für Crawler und LLM-Werkzeuge steht [`llms.txt`](https://github.com/doc-bricks/
 
 doc-bricks ist der Zweig für Dokumentenarbeit innerhalb der Bricks-Suite:
 
-[open-bricks](https://github.com/open-bricks) | [file-bricks](https://github.com/file-bricks) | [dev-bricks](https://github.com/dev-bricks)
+| Organisation | Primäre Domäne | Fokus & Spezialisierung |
+|---|---|---|
+| **[open-bricks](https://github.com/open-bricks)** | Dachorganisation | Dachorganisation zur Verbindung aller Softwareprodukte, Werkzeuge und Forschungs-Frameworks |
+| **[ellmos-ai](https://github.com/ellmos-ai)** | LLM-OS / KI-Infra | Agenten-Betriebssysteme (BACH, Rinnsal), Memory-Säule (.MEMORY, USMC, gardener), MCP-Server |
+| **[file-bricks](https://github.com/file-bricks)** | Desktop-Werkzeuge | Local-First PySide6 Datei- und Speicherverwaltung, Duplikatbereinigung und Desktop-Dienstprogramme |
+| **[doc-bricks](https://github.com/doc-bricks)** | Dokumentenwerkzeuge | Markdown-Tools, PDF-Verarbeitung, OCR-Engines und Dokumenten-Workflow-Software |
+| **[dev-bricks](https://github.com/dev-bricks)** | Entwicklerwerkzeuge | Entwickler-Utilities und IDEs (DevCenter, CodeBox, pythonbox, MethodenAnalyser, CareCenter) |
+| **[research-line](https://github.com/research-line)** | Open Science | Open-Access-Forschung in mathematischer Physik, Kosmologie, Zahlentheorie und KI-Gesellschaft |
+| **[biotec-line](https://github.com/biotec-line)** | Bioinformatik | Genomische Varianten-Tools, VCF-Verarbeitung und klinische Genetik-Software |
+| **[entertain-and-more](https://github.com/entertain-and-more)** | Entertainment | Spiele mit KI-Integration, interaktives Schach (ChatAndChess) und Audio-Tools (Klangpult) |
+| **[assistassets-ai](https://github.com/assistassets-ai)** | Finanz-KI | Local-First Finanzanalyse, Indikatoren und Assistenten-Werkzeuge (FinancialProof) |
+| **[um-bruch](https://github.com/um-bruch)** | Angewandte Gesundheit | Versorgungsforschung, Verordnungsrisiko-Analyse und Systemmedizin |
+| **[lukisch](https://github.com/lukisch)** | Persönlich / Kern | Persönliches Profil, Kern-Entwickler-Repositories und disziplinübergreifende Integration |
 
 Teil des [ellmos-ai](https://github.com/ellmos-ai)-Ökosystems: [llm-note](https://github.com/doc-bricks/llm-note) wurde aus den Notizblock/Denkarium-Mustern von [ellmos-ai/bach](https://github.com/ellmos-ai/bach) ausgegliedert und ist als eigenständiger Agenten-Notiz-Skill einsetzbar.
 

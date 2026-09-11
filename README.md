@@ -6,6 +6,7 @@
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ecosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Focus-Local--First_Document_Tools-emerald?style=flat-square" alt="Focus" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Privacy-100%25_Local_Data-purple?style=flat-square" alt="Privacy" /></a>
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Verified-2026--09--11-blue?style=flat-square" alt="Verified 2026-09-11" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM_Context-llms.txt-orange?style=flat-square" alt="LLM Context" /></a>
   <a href="profile/README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=flat-square" alt="German Version" /></a>
@@ -22,7 +23,7 @@ The public repository directory is maintained against the public GitHub organiza
 
 ## Current Public Index
 
-Verified: 2026-09-07. The public doc-bricks organization currently exposes 12 public repositories: this `.github` profile repository plus 11 public product/tool repositories.
+Verified: 2026-09-11. The public doc-bricks organization currently exposes 12 public repositories: this `.github` profile repository plus 11 public product/tool repositories.
 
 | Repository | Role |
 |---|---|
@@ -56,4 +57,4 @@ Verified: 2026-09-07. The public doc-bricks organization currently exposes 12 pu
 
 ## Related Organizations
 
-[open-bricks](https://github.com/open-bricks) | [file-bricks](https://github.com/file-bricks) | [dev-bricks](https://github.com/dev-bricks) | [ellmos-ai](https://github.com/ellmos-ai)
+[open-bricks](https://github.com/open-bricks) | [ellmos-ai](https://github.com/ellmos-ai) | [file-bricks](https://github.com/file-bricks) | [doc-bricks](https://github.com/doc-bricks) | [dev-bricks](https://github.com/dev-bricks) | [research-line](https://github.com/research-line) | [biotec-line](https://github.com/biotec-line) | [entertain-and-more](https://github.com/entertain-and-more) | [assistassets-ai](https://github.com/assistassets-ai) | [um-bruch](https://github.com/um-bruch) | [lukisch](https://github.com/lukisch)

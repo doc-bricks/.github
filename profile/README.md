@@ -14,6 +14,7 @@
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ecosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Focus-Local--First_Document_Tools-emerald?style=flat-square" alt="Focus" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Privacy-100%25_Local_Data-purple?style=flat-square" alt="Privacy" /></a>
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Verified-2026--09--11-blue?style=flat-square" alt="Verified 2026-09-11" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM_Context-llms.txt-orange?style=flat-square" alt="LLM Context" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=flat-square" alt="German Version" /></a>
@@ -21,6 +22,7 @@
 
 > [!NOTE]
 > **Local-First & LLM-Ready:** All doc-bricks tools run locally on your system, keeping documents, PDFs, and notes private. Machine-readable context is available in [`llms.txt`](https://github.com/doc-bricks/.github/blob/main/llms.txt) for LLM agents and crawlers.
+> Public index verified against live GitHub API: **2026-09-11**.
 
 > [!TIP]
 > **Deutsche Version:** Eine deutschsprachige Übersetzung dieser Organisations-Startseite finden Sie unter [`profile/README_de.md`](https://github.com/doc-bricks/.github/blob/main/profile/README_de.md).
@@ -30,7 +32,7 @@
 ## Ecosystem Architecture
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph Intake ["Mail & Document Intake"]
         MP["MailProcessor (Tray Launcher)"] --> UMC["UniversalMailCleaner"]
         MP --> UDG["UniversalDocsGrabber"]
@@ -125,7 +127,7 @@ More repositories without their own artwork yet: **[.github](https://github.com/
 
 ## Public Repository Directory
 
-This index covers every public doc-bricks repository visible on GitHub as of **2026-09-07**. Private or internal repositories are intentionally not listed on the public organization profile.
+This index covers every public doc-bricks repository visible on GitHub as of **2026-09-11**. Private or internal repositories are intentionally not listed on the public organization profile.
 
 | Repository | Role | Discovery notes |
 |---|---|---|
@@ -141,6 +143,27 @@ This index covers every public doc-bricks repository visible on GitHub as of **2
 | [UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber) | Mail attachment intake | IMAP/Gmail document downloader, OCR, PDF conversion, dedupe, PWA review |
 | [UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail) | Invoice and receipt intake | Invoice and receipt email archiver, OCR, PDF conversion, JSON export, DATEV-style CSV export |
 | [UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner) | Mailbox cleanup | Gmail and IMAP cleaner, safe trash mode, labels, scheduler, large-item cleanup |
+
+---
+
+## Current Public Activity Snapshot
+
+Live activity verified via GitHub API on **2026-09-11**. Dates are the UTC day of the API's `pushed_at` field, not a local-time conversion:
+
+| Repository | Last Public Push | Focus & Navigation Purpose |
+|---|---:|---|
+| **[DokuReader](https://github.com/doc-bricks/DokuReader)** | **2026-09-11** | Local-first document library, topic trees, reading status, PDF bundling & metadata JSON export |
+| **[PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr)** | **2026-09-11** | Batch Tesseract OCR engine converting scans and images to searchable PDFs |
+| **[CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown)** | **2026-09-11** | Focused Markdown viewer/editor with reading mode, PDF export, session handoff, and PWA companion |
+| **[UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail)** | **2026-09-11** | Invoice & receipt mail harvester with IMAP/Gmail API, OCR, PDF conversion, and DATEV-style CSV export |
+| **[MailProcessor](https://github.com/doc-bricks/MailProcessor)** | **2026-09-11** | System tray launcher and orchestrator for the Universal Mail Tools family |
+| **[.github](https://github.com/doc-bricks/.github)** | **2026-09-11** | Organization profile, community health files, issue templates, and machine-readable `llms.txt` |
+| **[UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber)** | **2026-09-10** | Automated attachment downloader and document archive builder with OCR and PWA review |
+| **[DokuZen](https://github.com/doc-bricks/DokuZen)** | **2026-09-10** | Unified local-first PySide6 workspace with 22 text, PDF, OCR, redaction, and conversion tools |
+| **[LitZentrum](https://github.com/doc-bricks/LitZentrum)** | **2026-08-24** | Academic literature manager for PDFs, BibTeX collections, citation workflows, and JSON exports |
+| **[MediaBrain](https://github.com/doc-bricks/MediaBrain)** | **2026-08-21** | Media library manager with smart playlists, provider detection, tags, and private SQLite storage |
+| **[UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner)** | **2026-08-16** | Local mailbox cleaner with safe trash mode, labels, scheduler, and large-attachment hygiene |
+| **[llm-note](https://github.com/doc-bricks/llm-note)** | **2026-08-03** | Local-first SQLite notes and notebook inboxes for LLM agents extracted from BACH |
 
 ---
 
@@ -209,7 +232,19 @@ For crawlers and LLM tools, see [`llms.txt`](https://github.com/doc-bricks/.gith
 
 doc-bricks is the document-work branch of the brick suite:
 
-[open-bricks](https://github.com/open-bricks) | [file-bricks](https://github.com/file-bricks) | [dev-bricks](https://github.com/dev-bricks)
+| Organization | Primary Domain | Focus & Specialization |
+|---|---|---|
+| **[open-bricks](https://github.com/open-bricks)** | Umbrella / Dach | Parent organization connecting all software products, tools, and research frameworks |
+| **[ellmos-ai](https://github.com/ellmos-ai)** | LLM-OS / AI Infra | Agent operating systems (BACH, Rinnsal), memory pillar (.MEMORY, USMC, gardener), MCP servers |
+| **[file-bricks](https://github.com/file-bricks)** | Desktop Utilities | Local-first PySide6 desktop file management, duplicate detection, and storage apps |
+| **[doc-bricks](https://github.com/doc-bricks)** | Document Tools | Markdown tools, PDF processing, OCR engines, and document workflow software |
+| **[dev-bricks](https://github.com/dev-bricks)** | Developer Tools | Developer utilities and IDEs (DevCenter, CodeBox, pythonbox, MethodenAnalyser, CareCenter) |
+| **[research-line](https://github.com/research-line)** | Open Science | Open-access research in mathematical physics, cosmology, number theory, and AI society |
+| **[biotec-line](https://github.com/biotec-line)** | Bioinformatics | Genomic variant tools, VCF processing, and clinical genetics software |
+| **[entertain-and-more](https://github.com/entertain-and-more)** | Entertainment | Games with AI integration, interactive chess (ChatAndChess), and audio tools (Klangpult) |
+| **[assistassets-ai](https://github.com/assistassets-ai)** | Financial AI | Local-first financial analysis, indicators, and assistant tools (FinancialProof) |
+| **[um-bruch](https://github.com/um-bruch)** | Applied Health | Public health policy studies, prescribing risk analysis, and systems medicine |
+| **[lukisch](https://github.com/lukisch)** | Personal / Core | Personal profile, core developer repositories, and cross-discipline integration |
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem: [llm-note](https://github.com/doc-bricks/llm-note) was extracted from [ellmos-ai/bach](https://github.com/ellmos-ai/bach)'s Notizblock/Denkarium patterns and remains usable as a standalone agent-notes skill.
 

@@ -2,6 +2,18 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.9] - 2026-09-11
+
+### Changed
+- Turnusgemäße Profil-Gesundheits- und Discoverability-Prüfung (`[GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH]`) für doc-bricks durchgeführt.
+- Synchronized public repository verification date to `2026-09-11` across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Added "Current Public Activity Snapshot" ("Aktueller öffentlicher Aktivitäts-Snapshot") with exact UTC pushed_at timestamps across all 12 public repositories.
+- Expanded Ecosystem section with the complete 10-organization sister ecosystem table (`open-bricks`, `ellmos-ai`, `file-bricks`, `doc-bricks`, `dev-bricks`, `research-line`, `biotec-line`, `entertain-and-more`, `assistassets-ai`, `um-bruch`, `lukisch`) across English and German organization profiles.
+- Established external discoverability on GitHub for `doc-bricks/llm-note` by setting the official homepage URL (`https://github.com/doc-bricks/llm-note#readme`).
+- Verified HTTP 200 availability for all 11 repository showcase banner assets on GitHub raw.
+- Enhanced `SECURITY.md` with maintainer contact emails, response timeline, supported versions matrix, and local-first/zero-egress security invariants.
+- Implemented automated contract test suite in `tests/test_profile_parity.py` covering markdown fence balance, 12 public repos inventory, private repo leak protection, timestamp parity, activity snapshot integrity, sister org cross-linking, mermaid flowchart boundaries, genuine German umlauts, and security policy integrity.
+
 ## [1.0.8] - 2026-09-07
 
 ### Changed

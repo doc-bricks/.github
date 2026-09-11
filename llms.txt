@@ -4,9 +4,9 @@ doc-bricks is the document-work branch of the brick suite: local-first desktop t
 
 Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
-Related suite entry points: https://github.com/open-bricks, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/ellmos-ai
+Related suite entry points: https://github.com/open-bricks, https://github.com/ellmos-ai, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/research-line, https://github.com/biotec-line, https://github.com/entertain-and-more, https://github.com/assistassets-ai, https://github.com/um-bruch, https://github.com/lukisch
 
-Public repository directory updated: 2026-09-07. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 12 repositories total, including `.github` plus 11 public product/tool repositories.
+Public repository directory updated: 2026-09-11. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 12 repositories total, including `.github` plus 11 public product/tool repositories. Live push activity verified on 2026-09-11 across all repositories.
 
 ## Primary repositories
 
