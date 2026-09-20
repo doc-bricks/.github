@@ -32,7 +32,7 @@ Verified: 2026-09-11. The public doc-bricks organization currently exposes 12 pu
 | [DokuReader](https://github.com/doc-bricks/DokuReader) | Local-first document library with topic organization, previews, reading state, PDF bundling, and metadata-only JSON export |
 | [DokuZen](https://github.com/doc-bricks/DokuZen) | Cross-platform local-first PySide6 document and PDF suite combining 22 text, PDF, OCR, and file utilities |
 | [LitZentrum](https://github.com/doc-bricks/LitZentrum) | Literature manager for PDFs, BibTeX, research notes, and companion JSON export |
-| [llm-note](https://github.com/doc-bricks/llm-note) | Local-first SQLite notes and notebook inboxes for LLM agents |
+| [llm-note](https://github.com/doc-bricks/llm-note) | Local-first SQLite notebook for humans, written into by their AI assistant |
 | [MailProcessor](https://github.com/doc-bricks/MailProcessor) | System tray launcher for the Universal Mail Tools family |
 | [MediaBrain](https://github.com/doc-bricks/MediaBrain) | Local-first PySide6 media library manager with smart playlists, provider detection, tags, blacklist, and private SQLite storage |
 | [PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr) | Local-first PySide6/Tesseract converter for batch-producing searchable PDFs while preserving originals |
