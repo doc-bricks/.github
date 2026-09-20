@@ -1,7 +1,7 @@
 # doc-bricks
 
 <p align="center">
-  <img src="logo.jpg" alt="doc-bricks Logo" width="120" />
+  <img src="logo.jpg" alt="doc-bricks Logo" />
 </p>
 
 <p align="center">
