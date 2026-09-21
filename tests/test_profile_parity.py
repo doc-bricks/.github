@@ -3,7 +3,6 @@
 
 import os
 import re
-import pytest
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -97,9 +96,9 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-11 across profile files."""
-    expected_iso = "2026-09-11"
-    expected_de = "11. September 2026"
+    """Verify verification date 2026-09-21 across profile files."""
+    expected_iso = "2026-09-21"
+    expected_de = "21. September 2026"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -119,7 +118,7 @@ def test_activity_snapshot_integrity():
     en_content = get_file_content("profile/README.md")
     de_content = get_file_content("profile/README_de.md")
 
-    for push_repo in ["DokuReader", "PDFtoPDFocr", "CleanMarkdown", "UniversalInvoiceMail", "MailProcessor", ".github", "UniversalDocsGrabber", "DokuZen"]:
+    for push_repo in PUBLIC_REPOS:
         assert push_repo in en_content
         assert push_repo in de_content
 

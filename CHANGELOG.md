@@ -2,6 +2,15 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.10] - 2026-09-21
+
+### Changed
+- Turnusgemäße Profil-Gesundheits- und Discoverability-Prüfung (`[GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH]`) für doc-bricks durchgeführt.
+- Synchronized public repository verification date to `2026-09-21` across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Refreshed "Current Public Activity Snapshot" ("Aktueller öffentlicher Aktivitäts-Snapshot") with latest live UTC `pushed_at` timestamps across all 12 public repositories (`DokuZen` and `PDFtoPDFocr` with fresh 2026-09-21 pushes).
+- Harmonized `llm-note` descriptions across all landing pages to accurately reflect its human-centric notebook role with AI assistant integration (ref f78542c).
+- Updated automated contract test suite in `tests/test_profile_parity.py` with refreshed verification timestamp parity and comprehensive snapshot verification.
+
 ## [1.0.9] - 2026-09-11
 
 ### Changed

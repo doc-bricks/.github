@@ -6,7 +6,7 @@ Canonical organization: https://github.com/doc-bricks
 Organization profile repository: https://github.com/doc-bricks/.github
 Related suite entry points: https://github.com/open-bricks, https://github.com/ellmos-ai, https://github.com/file-bricks, https://github.com/dev-bricks, https://github.com/research-line, https://github.com/biotec-line, https://github.com/entertain-and-more, https://github.com/assistassets-ai, https://github.com/um-bruch, https://github.com/lukisch
 
-Public repository directory updated: 2026-09-11. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 12 repositories total, including `.github` plus 11 public product/tool repositories. Live push activity verified on 2026-09-11 across all repositories.
+Public repository directory updated: 2026-09-21. The public organization profile lists public GitHub repositories only; private or internal repositories are intentionally excluded from this crawler context. Current public count: 12 repositories total, including `.github` plus 11 public product/tool repositories. Live push activity verified on 2026-09-21 across all repositories.
 
 ## Primary repositories
 
@@ -33,7 +33,7 @@ Public repository directory updated: 2026-09-11. The public organization profile
 - PDFtoPDFocr: https://github.com/doc-bricks/PDFtoPDFocr
   Local-first PySide6 and Tesseract batch converter for searchable PDFs with selectable OCR languages and non-destructive source preservation.
 - llm-note: https://github.com/doc-bricks/llm-note
-  Local-first notes and notebook inboxes for LLM agents: SQLite note log, plain-text notebooks, CLI/Python API, six locales, and standalone agent skill.
+  Local-first notebook for humans, written into by AI assistants: SQLite note log, plain-text notebooks, CLI/Python API, six locales, and standalone agent skill.
 
 ## Capability matrix summary
 
