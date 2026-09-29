@@ -2,6 +2,16 @@
 
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
+## [1.0.11] - 2026-09-29
+
+### Changed
+- Turnusgemäße Profil-Gesundheits- und Discoverability-Prüfung (`[GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH]`) für doc-bricks durchgeführt.
+- Synchronized public repository verification date to `2026-09-29` across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Refreshed "Current Public Activity Snapshot" ("Aktueller öffentlicher Aktivitäts-Snapshot") with latest live UTC `pushed_at` timestamps across all 12 public repositories (reflecting recent updates across 8 software repos from 2026-09-26..28).
+- Maximized internal and external GitHub discoverability: 100% saturation (20/20 topics) across all 12 public repositories achieved via GitHub CLI (enriched `CleanMarkdown`, `LitZentrum`, `MailProcessor`, `MediaBrain`, and `llm-note`).
+- Verified HTTP 200 availability and content types for all 11 repository showcase banner assets on GitHub raw.
+- Updated automated contract test suite in `tests/test_profile_parity.py` with refreshed verification timestamp parity (10/10 tests passed | 100% green, including new showcase banner links verification).
+
 ## [1.0.10] - 2026-09-21
 
 ### Changed

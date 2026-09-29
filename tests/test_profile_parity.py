@@ -96,9 +96,9 @@ def test_private_repo_leak_guard():
 
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-21 across profile files."""
-    expected_iso = "2026-09-21"
-    expected_de = "21. September 2026"
+    """Verify verification date 2026-09-29 across profile files."""
+    expected_iso = "2026-09-29"
+    expected_de = "29. September 2026"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -111,6 +111,18 @@ def test_check_timestamp_parity():
 
     llms_content = get_file_content("llms.txt")
     assert expected_iso in llms_content
+
+
+def test_showcase_banners_and_links():
+    """Verify that all 11 public product repositories have valid showcase banner links in profile READMEs."""
+    product_repos = [repo for repo in PUBLIC_REPOS if repo != ".github"]
+    en_content = get_file_content("profile/README.md")
+    de_content = get_file_content("profile/README_de.md")
+    for repo in product_repos:
+        assert f"github.com/doc-bricks/{repo}" in en_content
+        assert f"github.com/doc-bricks/{repo}" in de_content
+        assert f'alt="{repo}"' in en_content
+        assert f'alt="{repo}"' in de_content
 
 
 def test_activity_snapshot_integrity():
