@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased]
+
+### Changed
+- Refreshed the public repository index, bilingual activity snapshots, and LLM context against the live GitHub inventory on 2026-10-13; all 12 active public repositories remain represented.
+- Replaced the absolute-local-data badge and wording with accurate local-first language for optional Gmail/IMAP integrations.
+- Removed the unsupported MIT badge because this repository has no LICENSE file and GitHub reports no detected license.
+- Removed private repository identifiers from the tracked test source; the privacy guard now accepts a denylist through DOC_BRICKS_PRIVATE_REPOS supplied outside the repository.
+
 All notable changes to the `doc-bricks/.github` repository will be documented in this file.
 
 ## [1.0.11] - 2026-09-29

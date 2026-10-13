@@ -4,6 +4,8 @@
 import os
 import re
 
+import pytest
+
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 PUBLIC_REPOS = [
@@ -35,11 +37,7 @@ SISTER_ORGS = [
     "lukisch",
 ]
 
-PRIVATE_REPOS = [
-    "FormularErstellen",
-    "USR_PDFunlock",
-    "USR_pic2pic",
-]
+PRIVATE_REPOS_ENV = "DOC_BRICKS_PRIVATE_REPOS"
 
 
 def get_file_content(relative_path: str) -> str:
@@ -80,7 +78,13 @@ def test_public_repo_inventory():
 
 
 def test_private_repo_leak_guard():
-    """Verify 0 private/internal repos are leaked into public profile documents."""
+    """Verify public docs against a denylist supplied outside the repository."""
+    private_repos = [name.strip() for name in os.getenv(PRIVATE_REPOS_ENV, "").split(",") if name.strip()]
+    if not private_repos:
+        pytest.skip(
+            f"Set {PRIVATE_REPOS_ENV} outside the repository to run the private-name leak guard"
+        )
+
     target_files = [
         "profile/README.md",
         "profile/README_de.md",
@@ -91,14 +95,13 @@ def test_private_repo_leak_guard():
     ]
     for rel_path in target_files:
         content = get_file_content(rel_path)
-        for priv in PRIVATE_REPOS:
-            assert priv not in content, f'Leak violation: private repo "{priv}" found in {rel_path}'
-
+        for private_repo in private_repos:
+            assert private_repo not in content, "Private repository name found in public docs"
 
 def test_check_timestamp_parity():
-    """Verify verification date 2026-09-29 across profile files."""
-    expected_iso = "2026-09-29"
-    expected_de = "29. September 2026"
+    """Verify verification date 2026-10-13 across profile files."""
+    expected_iso = "2026-10-13"
+    expected_de = "13. Oktober 2026"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
