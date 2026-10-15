@@ -96,7 +96,8 @@ def test_private_repo_leak_guard():
     for rel_path in target_files:
         content = get_file_content(rel_path)
         for private_repo in private_repos:
-            assert private_repo not in content, "Private repository name found in public docs"
+            if private_repo in content:
+                raise AssertionError("Private repository name found in public docs")
 
 def test_check_timestamp_parity():
     """Verify verification date 2026-10-13 across profile files."""
