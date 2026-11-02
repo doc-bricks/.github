@@ -14,14 +14,14 @@
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ökosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ökosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Fokus-Local--First_Dokumentenwerkzeuge-emerald?style=flat-square" alt="Fokus" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Datenschutz-Lokalbetrieb-purple?style=flat-square" alt="Lokalbetrieb mit optionalen Online-Diensten" /></a>
-  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Geprüft-2026--10--13-blue?style=flat-square" alt="Geprüft 2026-10-13" /></a>
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Geprüft-2026--11--02-blue?style=flat-square" alt="Geprüft 2026-11-02" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM_Kontext-llms.txt-orange?style=flat-square" alt="LLM-Kontext" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Sprache-English-blue?style=flat-square" alt="Englische Version" /></a>
 </p>
 
 > [!NOTE]
 > **Local-First & LLM-Bereit:** Dokumentenbibliotheken, PDFs und Notizen werden lokal verarbeitet. Optionale Mail-Integrationen verbinden sich mit dem von Ihnen eingerichteten Gmail- oder IMAP-Anbieter. Maschinenlesbarer Kontext für LLM-Agenten und Crawler steht in [`llms.txt`](https://github.com/doc-bricks/.github/blob/main/llms.txt) bereit.
-> Öffentlicher Index verifiziert anhand der Live-GitHub-API: **13. Oktober 2026**.
+> Öffentlicher Index verifiziert anhand der Live-GitHub-API: **2. November 2026**.
 
 > [!TIP]
 > **English Version:** For the English version of this organization profile, see [`profile/README.md`](https://github.com/doc-bricks/.github/blob/main/profile/README.md).
@@ -107,17 +107,17 @@ flowchart TD
 Unser lokales Dokumenten-Werkzeugset — die Banner dienen als direkte Links; Detailinformationen finden sich in der Tabelle darunter:
 
 <p align="center">
-  <a href="https://github.com/doc-bricks/CleanMarkdown"><img src="https://raw.githubusercontent.com/doc-bricks/CleanMarkdown/main/assets/banner.svg" alt="CleanMarkdown" width="680" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/DokuReader"><img src="https://raw.githubusercontent.com/doc-bricks/DokuReader/master/assets/banner.svg" alt="DokuReader" width="680" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/DokuZen"><img src="https://raw.githubusercontent.com/doc-bricks/DokuZen/main/assets/banner.svg" alt="DokuZen" width="680" style="border:2px solid #22d3ee;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/LitZentrum"><img src="https://raw.githubusercontent.com/doc-bricks/LitZentrum/master/assets/banner.svg" alt="LitZentrum" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/llm-note"><img src="https://raw.githubusercontent.com/doc-bricks/llm-note/main/assets/banner.svg" alt="llm-note" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/MailProcessor"><img src="https://github.com/doc-bricks/MailProcessor/main/assets/banner.svg" alt="MailProcessor" width="680" style="border:2px solid #e879f9;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/MediaBrain"><img src="https://raw.githubusercontent.com/doc-bricks/MediaBrain/master/assets/banner.svg" alt="MediaBrain" width="680" style="border:2px solid #a3e635;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/PDFtoPDFocr"><img src="https://raw.githubusercontent.com/doc-bricks/PDFtoPDFocr/master/assets/banner.png" alt="PDFtoPDFocr" width="680" style="border:2px solid #f97316;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/UniversalDocsGrabber"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalDocsGrabber/master/assets/banner.svg" alt="UniversalDocsGrabber" width="680" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/UniversalInvoiceMail"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalInvoiceMail/master/assets/banner.svg" alt="UniversalInvoiceMail" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/doc-bricks/UniversalMailCleaner"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalMailCleaner/master/assets/banner.svg" alt="UniversalMailCleaner" width="680" style="border:2px solid #818cf8;border-radius:8px;display:block;margin:0 auto"></a>
+  <a href="https://github.com/doc-bricks/CleanMarkdown"><img src="https://raw.githubusercontent.com/doc-bricks/CleanMarkdown/main/assets/banner.svg" alt="CleanMarkdown" width="700" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/DokuReader"><img src="https://raw.githubusercontent.com/doc-bricks/DokuReader/master/assets/banner.svg" alt="DokuReader" width="700" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/DokuZen"><img src="https://raw.githubusercontent.com/doc-bricks/DokuZen/main/assets/banner.svg" alt="DokuZen" width="700" style="border:2px solid #22d3ee;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/LitZentrum"><img src="https://raw.githubusercontent.com/doc-bricks/LitZentrum/master/assets/banner.svg" alt="LitZentrum" width="700" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/llm-note"><img src="https://raw.githubusercontent.com/doc-bricks/llm-note/main/assets/banner.svg" alt="llm-note" width="700" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/MailProcessor"><img src="https://raw.githubusercontent.com/doc-bricks/MailProcessor/main/assets/banner.svg" alt="MailProcessor" width="700" style="border:2px solid #e879f9;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/MediaBrain"><img src="https://raw.githubusercontent.com/doc-bricks/MediaBrain/master/assets/banner.svg" alt="MediaBrain" width="700" style="border:2px solid #a3e635;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/PDFtoPDFocr"><img src="https://raw.githubusercontent.com/doc-bricks/PDFtoPDFocr/master/assets/banner.png" alt="PDFtoPDFocr" width="700" style="border:2px solid #f97316;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/UniversalDocsGrabber"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalDocsGrabber/master/assets/banner.svg" alt="UniversalDocsGrabber" width="700" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/UniversalInvoiceMail"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalInvoiceMail/master/assets/banner.svg" alt="UniversalInvoiceMail" width="700" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto 16px auto"></a>
+  <a href="https://github.com/doc-bricks/UniversalMailCleaner"><img src="https://raw.githubusercontent.com/doc-bricks/UniversalMailCleaner/master/assets/banner.svg" alt="UniversalMailCleaner" width="700" style="border:2px solid #818cf8;border-radius:8px;display:block;margin:0 auto"></a>
 </p>
 
 Weitere Repositories ohne eigenes Artwork: **[.github](https://github.com/doc-bricks/.github)** (Organisationsprofil und zentrale Community-Dateien)
@@ -126,7 +126,7 @@ Weitere Repositories ohne eigenes Artwork: **[.github](https://github.com/doc-br
 
 ## Verzeichnis der öffentlichen Repositories
 
-Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **13. Oktober 2026** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
+Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stand **2. November 2026** auf. Private oder interne Repositories werden im öffentlichen Profil bewusst nicht aufgeführt.
 
 | Repository | Rolle | Beschreibung |
 |---|---|---|
@@ -147,22 +147,22 @@ Dieser Index führt jedes öffentliche doc-bricks-Repository auf GitHub mit Stan
 
 ## Aktueller öffentlicher Aktivitäts-Snapshot
 
-Live-Aktivität verifiziert via GitHub API am **13. Oktober 2026** (UTC-Datum der API-Eigenschaft `pushed_at`):
+Live-Aktivität verifiziert via GitHub API am **2. November 2026** (UTC-Datum der API-Eigenschaft `pushed_at`):
 
 | Repository | Letzter öffentlicher Push (UTC) | Fokus & Navigationszweck |
 |---|---:|---|
-| **[DokuReader](https://github.com/doc-bricks/DokuReader)** | **2026-10-13** | Lokale Dokumentenbibliothek mit Themenorganisation, Vorschauen, Lesestatus, PDF-Bündelung und Metadaten-JSON-Export |
-| **[llm-note](https://github.com/doc-bricks/llm-note)** | **2026-10-13** | Local-First-SQLite-Notizbuch für Menschen mit KI-Assistenz und Plaintext-Notizbüchern |
-| **[UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber)** | **2026-10-13** | Lokaler IMAP-/Gmail-Anhangsimport mit OCR, PDF-Konvertierung, Dublettenerkennung und Prüf-Workflows |
-| **[MediaBrain](https://github.com/doc-bricks/MediaBrain)** | **2026-10-12** | Lokale PySide6-Medienbibliothek mit Playlists, Anbietererkennung, Tags, Sperrliste und privater SQLite-Ablage |
-| **[MailProcessor](https://github.com/doc-bricks/MailProcessor)** | **2026-10-12** | System-Tray-Starter für UniversalMailCleaner, UniversalDocsGrabber und UniversalInvoiceMail |
-| **[PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr)** | **2026-10-12** | Lokale PySide6-/Tesseract-OCR für durchsuchbare PDFs mit portablen Windows-Builds |
-| **[DokuZen](https://github.com/doc-bricks/DokuZen)** | **2026-10-11** | Lokaler PySide6-Dokumenten- und PDF-Arbeitsbereich mit 22 Werkzeugen für Bearbeitung, OCR, Schwärzung und Konvertierung |
-| **[UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail)** | **2026-10-08** | Lokales Windows-Archiv für Rechnungen und Belege mit IMAP/Gmail, OCR, PDF-Konvertierung und DATEV-CSV-Export |
+| **[llm-note](https://github.com/doc-bricks/llm-note)** | **2026-11-02** | Local-First-SQLite-Notizbuch für Menschen mit KI-Assistenz und Plaintext-Notizbüchern |
+| **[UniversalInvoiceMail](https://github.com/doc-bricks/UniversalInvoiceMail)** | **2026-11-02** | Lokales Windows-Archiv für Rechnungen und Belege mit IMAP/Gmail, OCR, PDF-Konvertierung und DATEV-CSV-Export |
+| **[DokuZen](https://github.com/doc-bricks/DokuZen)** | **2026-11-02** | Lokaler PySide6-Dokumenten- und PDF-Arbeitsbereich mit 22 Werkzeugen für Bearbeitung, OCR, Schwärzung und Konvertierung |
+| **[CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown)** | **2026-11-02** | Lokaler Markdown-Viewer/Editor mit Lesemodus, PDF-Export, Sitzungsübergabe und PWA-Begleiter |
+| **[MediaBrain](https://github.com/doc-bricks/MediaBrain)** | **2026-11-02** | Lokale PySide6-Medienbibliothek mit Playlists, Anbietererkennung, Tags, Sperrliste und privater SQLite-Ablage |
+| **[PDFtoPDFocr](https://github.com/doc-bricks/PDFtoPDFocr)** | **2026-11-02** | Lokale PySide6-/Tesseract-OCR für durchsuchbare PDFs mit portablen Windows-Builds |
+| **[.github](https://github.com/doc-bricks/.github)** | **2026-11-02** | Organisationsprofil, gemeinsame Community-Dateien und maschinenlesbarer Organisationskontext |
+| **[DokuReader](https://github.com/doc-bricks/DokuReader)** | **2026-11-01** | Lokale Dokumentenbibliothek mit Themenorganisation, Vorschauen, Lesestatus, PDF-Bündelung und Metadaten-JSON-Export |
+| **[UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner)** | **2026-11-01** | Gmail-/IMAP-Postfachbereinigung mit sicherem Papierkorbmodus, Labels, Zeitplaner und Großdatei-Bereinigung |
+| **[UniversalDocsGrabber](https://github.com/doc-bricks/UniversalDocsGrabber)** | **2026-11-01** | Lokaler IMAP-/Gmail-Anhangsimport mit OCR, PDF-Konvertierung, Dublettenerkennung und Prüf-Workflows |
+| **[MailProcessor](https://github.com/doc-bricks/MailProcessor)** | **2026-10-31** | System-Tray-Starter für UniversalMailCleaner, UniversalDocsGrabber und UniversalInvoiceMail |
 | **[LitZentrum](https://github.com/doc-bricks/LitZentrum)** | **2026-10-04** | Local-First-Literaturverwaltung für PDFs, BibTeX und JSON-Export |
-| **[CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown)** | **2026-10-03** | Lokaler Markdown-Viewer/Editor mit Lesemodus, PDF-Export, Sitzungsübergabe und PWA-Begleiter |
-| **[UniversalMailCleaner](https://github.com/doc-bricks/UniversalMailCleaner)** | **2026-10-03** | Gmail-/IMAP-Postfachbereinigung mit sicherem Papierkorbmodus, Labels, Zeitplaner und Großdatei-Bereinigung |
-| **[.github](https://github.com/doc-bricks/.github)** | **2026-09-29** | Organisationsprofil, gemeinsame Community-Dateien und maschinenlesbarer Organisationskontext |
 ---
 
 ## Projekt-Familien
