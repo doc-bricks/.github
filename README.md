@@ -6,7 +6,7 @@
   <a href="https://github.com/ellmos-ai"><img src="https://img.shields.io/badge/Ecosystem-ellmos--ai-purple?style=flat-square&logo=github" alt="Ecosystem: ellmos-ai" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Focus-Local--First_Document_Tools-emerald?style=flat-square" alt="Focus" /></a>
   <a href="https://github.com/doc-bricks"><img src="https://img.shields.io/badge/Privacy-Local--First-purple?style=flat-square" alt="Local-first privacy" /></a>
-  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Verified-2026--10--13-blue?style=flat-square" alt="Verified 2026-10-13" /></a>
+  <a href="https://github.com/doc-bricks/.github"><img src="https://img.shields.io/badge/Verified-2026--11--02-blue?style=flat-square" alt="Verified 2026-11-02" /></a>
   <a href="https://github.com/doc-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/LLM_Context-llms.txt-orange?style=flat-square" alt="LLM Context" /></a>
   <a href="profile/README_de.md"><img src="https://img.shields.io/badge/Language-Deutsch-blue?style=flat-square" alt="German Version" /></a>
 </p>
@@ -22,7 +22,7 @@ The public repository directory is maintained against the public GitHub organiza
 
 ## Current Public Index
 
-Verified: 2026-10-13. The public doc-bricks organization currently exposes 12 public repositories: this `.github` profile repository plus 11 public product/tool repositories.
+Verified: 2026-11-02. The public doc-bricks organization currently exposes 12 public repositories: this `.github` profile repository plus 11 public product/tool repositories.
 
 | Repository | Role |
 |---|---|

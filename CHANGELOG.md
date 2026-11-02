@@ -3,6 +3,14 @@
 ## [Unreleased]
 
 ### Changed
+- Turnusgemäße Profil-Gesundheits- und Discoverability-Prüfung (`[GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH]`) für doc-bricks durchgeführt.
+- Synchronized public repository verification date to `2026-11-02` across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`.
+- Fixed MailProcessor showcase banner image URL in `profile/README.md` and `profile/README_de.md` (resolved 404 by directing to raw GitHub usercontent).
+- Harmonized showcase banner layout across organization profiles to 700px width with modern 16px vertical spacing.
+- Refreshed "Current Public Activity Snapshot" ("Aktueller öffentlicher Aktivitäts-Snapshot") with latest live UTC `pushed_at` timestamps across all 12 public repositories (reflecting recent updates across 7 software repositories from 2026-10-31 to 2026-11-02).
+- Updated automated contract test suite in `tests/test_profile_parity.py` with refreshed verification timestamp parity and added showcase banner URL contract test.
+
+### Changed
 - Refreshed the public repository index, bilingual activity snapshots, and LLM context against the live GitHub inventory on 2026-10-13; all 12 active public repositories remain represented.
 - Replaced the absolute-local-data badge and wording with accurate local-first language for optional Gmail/IMAP integrations.
 - Removed the unsupported MIT badge because this repository has no LICENSE file and GitHub reports no detected license.

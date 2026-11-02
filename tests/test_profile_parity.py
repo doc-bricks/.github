@@ -100,8 +100,8 @@ def test_private_repo_leak_guard():
 
 def test_check_timestamp_parity():
     """Verify verification date 2026-10-13 across profile files."""
-    expected_iso = "2026-10-13"
-    expected_de = "13. Oktober 2026"
+    expected_iso = "2026-11-02"
+    expected_de = "2. November 2026"
 
     en_content = get_file_content("profile/README.md")
     assert expected_iso in en_content
@@ -126,6 +126,18 @@ def test_showcase_banners_and_links():
         assert f"github.com/doc-bricks/{repo}" in de_content
         assert f'alt="{repo}"' in en_content
         assert f'alt="{repo}"' in de_content
+
+
+def test_showcase_banner_urls():
+    """Verify all showcase banners use raw.githubusercontent.com URLs."""
+    en_content = get_file_content("profile/README.md")
+    de_content = get_file_content("profile/README_de.md")
+    for content in [en_content, de_content]:
+        banner_imgs = re.findall(r'<img [^>]*src="([^"]+)"[^>]*alt="([^"]+)"', content)
+        for src, alt in banner_imgs:
+            if "logo.jpg" in src or "shields.io" in src:
+                continue
+            assert src.startswith("https://raw.githubusercontent.com/"), f"Banner for {alt} should use raw.githubusercontent.com, found: {src}"
 
 
 def test_activity_snapshot_integrity():
